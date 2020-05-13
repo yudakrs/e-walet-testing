@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EmployeeSuite">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="EmployeeTest" thread-count="4">
+        <classes>
+            <class name="G2.Project.Test.Value"/>
+        </classes>
+    </test>
+    <test name="DifferentTest" thread-count="1">
+        <classes>
+            <class name="G2.Project.Test.Value"/>
+        </classes>
+    </test>
+</suite>
