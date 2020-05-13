@@ -1,8 +1,10 @@
 package G2.Project.Base;
 
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.PropertyConfigurator;
+import org.json.simple.JSONObject;
 import org.junit.Assert;
 import org.testng.annotations.BeforeClass;
 
@@ -11,7 +13,9 @@ import java.util.logging.Logger;
 public class TestBase {
     protected static RequestSpecification httpRequest;
     protected static Response response;
-    protected String BaseURI = null;
+    protected String BaseURI = null; //nanti diganti kalo dah ada linknya
+    protected String responseBody;
+    protected JSONObject requestParams;
 
     protected Logger logger;
 
@@ -19,6 +23,32 @@ public class TestBase {
     public void setup() {
         logger=Logger.getLogger("e-Walet");
         PropertyConfigurator.configure("Log4j.properties");
+    }
+
+    // Ini kalo di response ada data kasih true, kalo ga ada data kasih false
+    public void checkData(Boolean isNull) {
+        logger.info("***** Check Data Field *****");
+
+        JsonPath jsondata = response.jsonPath();
+        String data = jsondata.get("data");
+        logger.info("Data = " + data);
+        Assert.assertEquals(data.isEmpty(), isNull);
+    }
+
+    public void checkBody() {
+        logger.info("***** Check Body Data *****");
+
+        String responseBody = response.getBody().asString();
+        Assert.assertTrue(responseBody.isEmpty() == false);
+    }
+
+    // Check di header ada token atau tidak
+    public void checkToken(String token) {
+        logger.info("***** Check Token in Response ******");
+
+        String headertoken = response.header("Authorization");
+        logger.info("Token = " + headertoken);
+        Assert.assertEquals(token, headertoken);
     }
 
     public void checkStatusCode(String sc) {
@@ -45,28 +75,11 @@ public class TestBase {
         Assert.assertEquals(statusLine, sl);
     }
 
-    public void checkContentType(String ct) {
+    public void checkContentType() {
         logger.info("***** Check Content Type *****");
 
         String contentType = response.header("Content-Type");
-        logger.info("Content Type = " + contentType);
-        Assert.assertEquals(contentType, ct);
-    }
-
-    public void checkServerType(String st) {
-        logger.info("***** Check Server Type *****");
-
-        String serverType = response.header("Server");
-        logger.info("Server Type = " + serverType);
-        Assert.assertEquals(serverType, st);
-    }
-
-    public void checkContentEncoding(String ce) {
-        logger.info("***** Check Content Encoding *****");
-
-        String contentEncoding = response.header("Content-Encoding");
-        logger.info("Content Encoding = " + contentEncoding);
-        Assert.assertEquals(contentEncoding, ce);
+        Assert.assertEquals(contentType, "application/json");
     }
 
     public void checkContentLength(String cl) {
@@ -84,15 +97,5 @@ public class TestBase {
         }
 
         Assert.assertTrue(contLeng>contLengParam);
-    }
-
-    public void checkCookies(String ck) {
-        logger.info("***** Check Cookies *****");
-        String cookie = response.getCookie(ck);
-        logger.info("Cookie = " + cookie);
-    }
-
-    public void tearDown(String message) {
-        logger.info("***** " + message + " *****");
     }
 }
