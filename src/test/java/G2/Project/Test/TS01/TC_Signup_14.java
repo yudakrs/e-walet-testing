@@ -7,10 +7,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TC_Signup_01 extends TestBase {
+public class TC_Signup_14 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
-    @Parameters({"first_name_valid", "last_name_valid", "phone_unregistered", "email_unregistered", "pass_valid"})
+    @Parameters({"first_name_valid", "last_name_valid", "phone_unregistered", "email_registered", "pass_valid"})
     void SettingUp(String first_name, String last_name, String phone, String email, String pass){
         logger.info("# "+ getClass().getName() +" #");
         RestAssured.baseURI = BaseURI;
