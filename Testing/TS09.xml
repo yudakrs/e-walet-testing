@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify GetPaymentMethod Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="GetPaymentMethodResponseTest" thread-count="2">
+        <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
+        <classes>
+            <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_01"/>
+            <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_02"/>
+        </classes>
+    </test>
+</suite>
