@@ -8,6 +8,7 @@ import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 
+import java.io.BufferedReader;
 import java.util.logging.Logger;
 
 public class TestBase {
@@ -97,5 +98,19 @@ public class TestBase {
         }
 
         Assert.assertTrue(contLeng>contLengParam);
+    }
+
+    public String loadToken(){
+        try {
+            FileReader fr = new FileReader("Token/SDETBEUserToken");
+            BufferedReader br = new BufferedReader(fr);
+
+            String tokenuser = br.readLine();
+            br.close();
+            fr.close();
+            return tokenuser;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
