@@ -27,6 +27,7 @@ public class TC_TopUpBalance_02 extends TestBase {
         httpRequest.body(requestParams.toJSONString());
 
         response = httpRequest.request(Method.POST, "/topup-balance");
+        responseBody = response.getBody().asString();
     }
 
     @Test
@@ -41,12 +42,12 @@ public class TC_TopUpBalance_02 extends TestBase {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("200");
+        checkStatusCode("400");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 OK");
+        checkStatusLine("HTTP/1.1 400 Bad Request");
     }
 
     @Test

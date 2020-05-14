@@ -46,9 +46,4 @@ public class TC_GetUserProfile_02 extends TestBase {
     void checkHeader() {
         checkContentType();
     }
-
-    @Test
-    void checkLength() {
-        checkContentLength("100");
-    }
 }

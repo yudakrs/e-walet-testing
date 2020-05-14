@@ -27,6 +27,7 @@ public class TC_TopUpBalance_01 extends TestBase {
         httpRequest.body(requestParams.toJSONString());
 
         response = httpRequest.request(Method.POST, "/topup-balance");
+        responseBody = response.getBody().asString();
     }
 
     @Test

@@ -43,7 +43,7 @@ public class TC_Signup_01 extends TestBase {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("201");
+        checkStatusCode("200");
     }
 
     @Test
