@@ -43,12 +43,12 @@ public class TC_Signup_01 extends TestBase {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("200");
+        checkStatusCode("201");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 OK");
+        checkStatusLine("HTTP/1.1 201 Created");
     }
 
     @Test

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Top Up Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="EmployeeTest" thread-count="2" preserve-order="true">
+        <classes>
+            <class name="G2.Project.Test.TS10.Setting"/>
+            <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02"/>
+            <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03"/>
+            <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01"/>
+        </classes>
+    </test>
+</suite>

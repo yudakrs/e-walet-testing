@@ -3,7 +3,7 @@
     <listeners>
         <listener class-name="G2.Project.Listener.Listeners" />
     </listeners>
-    <test name="EmployeeTest" thread-count="4">
+    <test name="EmployeeTest" thread-count="7">
         <parameter name="first_name_valid" value="Backend"/>
         <parameter name="last_name_valid" value="Tester"/>
         <parameter name="name_long" value="Yudarealmvpjelassekaliyatoya"/>

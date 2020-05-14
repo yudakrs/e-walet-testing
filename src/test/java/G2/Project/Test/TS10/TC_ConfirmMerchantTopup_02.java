@@ -6,7 +6,7 @@ import io.restassured.http.Method;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class TC_ConfirmMerchantTopup_01 extends TestBase {
+public class TC_ConfirmMerchantTopup_02 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
     void SettingUp() {
@@ -17,7 +17,7 @@ public class TC_ConfirmMerchantTopup_01 extends TestBase {
         token = loadToken();
         httpRequest.header("Authorization","Bearer "+token);
 
-        response = httpRequest.request(Method.GET, "/confirm-merchant-topup/"+Setting.GetPay()+"/"+Setting.GetId());
+        response = httpRequest.request(Method.GET, "/confirm-merchant-topup/6281325618/"+Setting.GetId());
         responseBody = response.getBody().asString();
     }
     @Test
@@ -27,17 +27,17 @@ public class TC_ConfirmMerchantTopup_01 extends TestBase {
 
     @Test
     void checkDataBody(){
-        checkData(true);
+        checkData(false);
     }
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("200");
+        checkStatusCode("400");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 OK");
+        checkStatusLine("HTTP/1.1 400 Bad Request");
     }
 
     @Test
