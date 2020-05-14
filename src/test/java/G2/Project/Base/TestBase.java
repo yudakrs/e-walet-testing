@@ -42,7 +42,7 @@ public class TestBase {
         logger.info("***** Check Body Data *****");
 
         String responseBody = response.getBody().asString();
-        Assert.assertTrue(responseBody.isEmpty() == false);
+        Assert.assertTrue(responseBody.isEmpty() != false);
     }
 
     // Check di header ada token atau tidak
@@ -103,16 +103,17 @@ public class TestBase {
     }
 
     public String loadToken(){
+        String tokenuser = "";
         try {
-            FileReader fr = new FileReader("Token/SDETBEUserToken");
+            FileReader fr = new FileReader("Token/SDETBEUserToken.txt");
             BufferedReader br = new BufferedReader(fr);
 
-            String tokenuser = br.readLine();
+            tokenuser = br.readLine();
             br.close();
             fr.close();
-            return tokenuser;
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return tokenuser;
     }
 }
