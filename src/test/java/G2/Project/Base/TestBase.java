@@ -35,14 +35,13 @@ public class TestBase {
         JsonPath jsondata = response.jsonPath();
         String data = jsondata.get("data");
         logger.info("Data = " + data);
-        Assert.assertTrue(data.isEmpty() != isNull);
+        Assert.assertTrue(data.isEmpty() == isNull);
     }
 
-    public void checkBody() {
+    public void checkBody(boolean isNull) {
         logger.info("***** Check Body Data *****");
 
-        String responseBody = response.getBody().asString();
-        Assert.assertTrue(responseBody.isEmpty() != false);
+        Assert.assertTrue(responseBody.isEmpty() == isNull);
     }
 
     // Check di header ada token atau tidak

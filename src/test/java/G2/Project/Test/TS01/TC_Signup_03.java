@@ -33,7 +33,7 @@ public class TC_Signup_03 extends TestBase {
 
     @Test
     void checkResponseBody(){
-        checkBody();
+        checkBody(false);
     }
 
     @Test

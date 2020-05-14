@@ -23,7 +23,7 @@ public class TC_GetBalanceCatalog_01 extends TestBase {
 
     @Test
     void checkResponseBody(){
-        checkBody();
+        checkBody(false);
     }
 
     @Test

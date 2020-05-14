@@ -52,7 +52,7 @@ public class TC_Login_01 extends TestBase {
 
     @Test
     void checkResponseBody(){
-        checkBody();
+        checkBody(false);
     }
 
     @Test
