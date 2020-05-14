@@ -37,7 +37,7 @@ public class TC_Login_01 extends TestBase {
         String userToken = jsonResponse.get("token");
 
         try {
-            FileWriter fw = new FileWriter("SDETBEUserToken.txt");
+            FileWriter fw = new FileWriter("Token/SDETBEUserToken.txt");
             BufferedWriter bw = new BufferedWriter(fw);
 
             bw.write(userToken);
