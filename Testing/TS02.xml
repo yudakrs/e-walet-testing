@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Login Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="LoginResponseTest" thread-count="3">
+        <parameter name="registered_username" value="6281905218958"/>
+        <parameter name="unregistered_username" value="6285156362125"/>
+        <parameter name="invalid_username" value="6281string"/>
+        <parameter name="registered_password" value="e-Walet@01"/>
+        <parameter name="unregistered_password" value="e-Walet@02"/>
+        <parameter name="invalid_password" value="ewalet"/>
+        <classes>
+            <class name="G2.Project.Test.TS02.TC_Login_01"/>
+            <class name="G2.Project.Test.TS02.TC_Login_02"/>
+            <class name="G2.Project.Test.TS02.TC_Login_03"/>
+            <class name="G2.Project.Test.TS02.TC_Login_04"/>
+            <class name="G2.Project.Test.TS02.TC_Login_05"/>
+            <class name="G2.Project.Test.TS02.TC_Login_06"/>
+            <class name="G2.Project.Test.TS02.TC_Login_07"/>
+            <class name="G2.Project.Test.TS02.TC_Login_08"/>
+            <class name="G2.Project.Test.TS02.TC_Login_09"/>
+        </classes>
+    </test>
+</suite>
