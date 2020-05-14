@@ -4,7 +4,6 @@ import G2.Project.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class TC_ConfirmMerchantTopup_01 extends TestBase {
@@ -24,7 +23,7 @@ public class TC_ConfirmMerchantTopup_01 extends TestBase {
         token = loadToken();
         httpRequest.header("Authorization","Bearer "+token);
 
-        response = httpRequest.request(Method.GET, "/confirm-merchant-topup/"+Setting.GetPay()+"/"+Setting.GetId();
+        response = httpRequest.request(Method.GET, "/confirm-merchant-topup/"+Setting.GetPay()+"/"+Setting.GetId());
         responseBody = response.getBody().asString();
     }
     @Test
