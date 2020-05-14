@@ -28,7 +28,7 @@ public class TestBase {
         PropertyConfigurator.configure("Log4j.properties");
     }
 
-    // Ini kalo di response ada data kasih true, kalo ga ada data kasih false
+    // Ini kalo di response ada data kasih false, kalo ga ada data kasih true
     public void checkData(Boolean isNull) {
         logger.info("***** Check Data Field *****");
 
@@ -42,15 +42,6 @@ public class TestBase {
         logger.info("***** Check Body Data *****");
 
         Assert.assertTrue(responseBody.isEmpty() == isNull);
-    }
-
-    // Check di header ada token atau tidak
-    public void checkToken(String token) {
-        logger.info("***** Check Token in Response ******");
-
-        String headertoken = response.header("Authorization");
-        logger.info("Token = " + headertoken);
-        Assert.assertEquals(token, headertoken);
     }
 
     public void checkStatusCode(String sc) {
