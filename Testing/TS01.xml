@@ -38,7 +38,6 @@
             <class name="G2.Project.Test.TS01.TC_Signup_20"/>
             <class name="G2.Project.Test.TS01.TC_Signup_21"/>
             <class name="G2.Project.Test.TS01.TC_Signup_22"/>
-            <class name="G2.Project.Test.TS01.TC_Signup_23"/>
             <class name="G2.Project.Test.TS01.TC_Signup_01"/>
         </classes>
     </test>

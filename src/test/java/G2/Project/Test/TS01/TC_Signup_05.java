@@ -28,7 +28,7 @@ public class TC_Signup_05 extends TestBase {
 
         response = httpRequest.request(Method.POST, "/sign-up");
 
-        responseBody = response.getBody().asString()
+        responseBody = response.getBody().asString();
     }
 
     @Test

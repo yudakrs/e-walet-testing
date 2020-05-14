@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Top Up Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="EmployeeTest" thread-count="4">
+        <parameter name="phone_unregistered" value="6281905218958"/>
+        <parameter name="phone_registered" value="6281325618362"/>
+        <parameter name="phone_invalid" value="6281325string"/>
+        <parameter name="code_valid" value="E-20"/>
+        <parameter name="code_invalid" value="S-20"/>
+        <parameter name="payment_id_valid" value="1"/>
+        <parameter name="payment_id_invalid" value="10"/>
+        <classes>
+            <class name="G2.Project.Test.TS12.TC_TopUpBalance_02"/>
+            <class name="G2.Project.Test.TS12.TC_TopUpBalance_03"/>
+            <class name="G2.Project.Test.TS12.TC_TopUpBalance_04"/>
+            <class name="G2.Project.Test.TS12.TC_TopUpBalance_05"/>
+            <class name="G2.Project.Test.TS12.TC_TopUpBalance_01"/>
+        </classes>
+    </test>
+</suite>
