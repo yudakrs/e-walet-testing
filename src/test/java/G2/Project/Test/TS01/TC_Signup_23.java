@@ -4,24 +4,16 @@ import G2.Project.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TC_Signup_01 extends TestBase {
+public class TC_Signup_23 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
-    @Parameters({"first_name_valid", "last_name_valid", "phone_unregistered", "email_unregistered", "pass_valid"})
-    void SettingUp(String first_name, String last_name, String phone, String email, String pass){
+    void SettingUp(){
         logger.info("# "+ getClass().getName() +" #");
         RestAssured.baseURI = BaseURI;
 
         httpRequest = RestAssured.given();
-        requestParams.put("first_name", first_name);
-        requestParams.put("last_name", last_name);
-        requestParams.put("email", email);
-        requestParams.put("phone_number", phone);
-        requestParams.put("password", pass);
-
         httpRequest.header("Content-Type", "application/json");
 
         httpRequest.body(requestParams.toJSONString());

@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Sign Up Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="EmployeeTest" thread-count="4">
+        <parameter name="first_name_valid" value="Backend"/>
+        <parameter name="last_name_valid" value="Tester"/>
+        <parameter name="name_long" value="Yudarealmvpjelassekaliyatoya"/>
+        <parameter name="phone_unregistered" value="6281905218958"/>
+        <parameter name="phone_registered" value="6281325618362"/>
+        <parameter name="phone_short" value="62813256183"/>
+        <parameter name="phone_multi" value="6281string"/>
+        <parameter name="email_unregistered" value="sdetbe.team1@gmail.com"/>
+        <parameter name="email_registered" value="yuda.dea.k@gmail.com"/>
+        <parameter name="email_invalid" value="saya01"/>
+        <parameter name="pass_valid" value="e-Walet@01"/>
+        <parameter name="pass_invalid" value="true"/>
+        <classes>
+            <class name="G2.Project.Test.TS01.TC_Signup_02"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_03"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_04"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_05"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_06"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_07"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_08"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_09"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_10"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_11"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_12"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_13"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_14"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_15"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_16"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_17"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_18"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_19"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_20"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_21"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_22"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_23"/>
+            <class name="G2.Project.Test.TS01.TC_Signup_01"/>
+        </classes>
+    </test>
+</suite>

@@ -7,20 +7,19 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TC_Signup_01 extends TestBase {
+public class TC_Signup_22 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
-    @Parameters({"first_name_valid", "last_name_valid", "phone_unregistered", "email_unregistered", "pass_valid"})
-    void SettingUp(String first_name, String last_name, String phone, String email, String pass){
+    void SettingUp(){
         logger.info("# "+ getClass().getName() +" #");
         RestAssured.baseURI = BaseURI;
 
         httpRequest = RestAssured.given();
-        requestParams.put("first_name", first_name);
-        requestParams.put("last_name", last_name);
-        requestParams.put("email", email);
-        requestParams.put("phone_number", phone);
-        requestParams.put("password", pass);
+        requestParams.put("first_name", null);
+        requestParams.put("last_name", null);
+        requestParams.put("email", null);
+        requestParams.put("phone_number", null);
+        requestParams.put("password", null);
 
         httpRequest.header("Content-Type", "application/json");
 
