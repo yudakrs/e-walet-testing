@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.PropertyConfigurator;
 import org.json.simple.JSONObject;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 
 import java.util.logging.Logger;
@@ -32,7 +32,7 @@ public class TestBase {
         JsonPath jsondata = response.jsonPath();
         String data = jsondata.get("data");
         logger.info("Data = " + data);
-        Assert.assertEquals(data.isEmpty(), isNull);
+        Assert.assertTrue(data.isEmpty() != isNull);
     }
 
     public void checkBody() {
