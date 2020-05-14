@@ -17,6 +17,7 @@ public class TestBase {
     protected String BaseURI = null; //nanti diganti kalo dah ada linknya
     protected String responseBody;
     protected JSONObject requestParams;
+    protected String token;
 
     protected Logger logger;
 
