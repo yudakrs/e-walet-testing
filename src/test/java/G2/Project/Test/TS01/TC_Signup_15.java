@@ -38,7 +38,7 @@ public class TC_Signup_15 extends TestBase {
 
     @Test
     void checkDataBody(){
-        checkData(false);
+        checkData(true);
     }
 
     @Test

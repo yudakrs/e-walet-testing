@@ -36,7 +36,7 @@ public class TC_TopUpBalance_05 extends TestBase {
 
     @Test
     void checkDataBody(){
-        checkData(false);
+        checkData(true);
     }
 
     @Test

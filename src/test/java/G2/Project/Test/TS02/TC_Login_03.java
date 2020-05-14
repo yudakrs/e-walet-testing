@@ -37,7 +37,7 @@ public class TC_Login_03 extends TestBase {
 
     @Test
     void checkDataBody(){
-        checkData(false);
+        checkData(true);
     }
 
     @Test
