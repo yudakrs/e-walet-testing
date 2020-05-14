@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TC_GetUserBalance_02 extends TestBase {
     @BeforeClass
     @Parameters({"invalid_token"})
-    void setUpTCLogin01(String token) {
+    void setUpTCGetUserBalance02(String token) {
         logger.info("***** " + getClass().getName() + " *****");
 
         RestAssured.baseURI = BaseURI;

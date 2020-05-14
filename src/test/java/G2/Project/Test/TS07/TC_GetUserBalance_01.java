@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class TC_GetUserBalance_01 extends TestBase {
     @BeforeClass
-    void setUpTCLogin01() {
+    void setUpTCGetUserBalance01() {
         logger.info("***** " + getClass().getName() + " *****");
 
         RestAssured.baseURI = BaseURI;
