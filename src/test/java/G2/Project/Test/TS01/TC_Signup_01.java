@@ -13,6 +13,6 @@ public class TC_Signup_01 extends TestBase {
         logger.info("# "+ getClass().getName() +" #");
         RestAssured.baseURI = BaseURI;
 
-        
+
     }
 }
