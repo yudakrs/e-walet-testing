@@ -4,18 +4,19 @@ import G2.Project.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TC_GetUserProfile_02 extends TestBase {
     @BeforeClass
-    void setUpTCLogin01() {
+    @Parameters({"invalid_token"})
+    void setUpTCLogin01(String token) {
         logger.info("***** " + getClass().getName() + " *****");
 
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        String userToken = loadToken();
-        httpRequest.header("Authorization", "Bearer " + userToken);
+        httpRequest.header("Authorization", "Bearer " + token);
         response = httpRequest.request(Method.GET, "/get-user-profile");
 
         responseBody = response.getBody().asString();
