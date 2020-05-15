@@ -10,8 +10,11 @@ import org.testng.annotations.BeforeClass;
 
 import java.io.FileReader;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.logging.FileHandler;
 import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class TestBase {
     protected static RequestSpecification httpRequest;
@@ -27,6 +30,19 @@ public class TestBase {
     public void setup() {
         logger=Logger.getLogger("e-Walet");
         PropertyConfigurator.configure("Log4j.properties");
+
+        try {
+            FileHandler fh = new FileHandler("logs/restAPI.log");
+            logger.addHandler(fh);
+            SimpleFormatter formatter = new SimpleFormatter();
+            fh.setFormatter(formatter);
+
+            fh.close();
+        } catch (SecurityException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     // Ini kalo di response ada data kasih false, kalo ga ada data kasih true
