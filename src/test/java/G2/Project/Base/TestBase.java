@@ -32,7 +32,7 @@ public class TestBase {
         PropertyConfigurator.configure("Log4j.properties");
 
         try {
-            FileHandler fh = new FileHandler("logs/restAPI.log");
+            FileHandler fh = new FileHandler(System.getProperty("user.dir") + "/logs/restAPI.log");
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
