@@ -3,7 +3,7 @@
     <listeners>
         <listener class-name="G2.Project.Listener.Listeners" />
     </listeners>
-    <test name="EmployeeTest" thread-count="4">
+    <test name="TopupBalanceResponseTest" thread-count="4">
         <parameter name="phone_unregistered" value="6281905218957"/>
         <parameter name="phone_registered" value="6281325618362"/>
         <parameter name="phone_invalid" value="6281325string"/>

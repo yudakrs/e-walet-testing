@@ -3,7 +3,7 @@
     <listeners>
         <listener class-name="G2.Project.Listener.Listeners" />
     </listeners>
-    <test name="EmployeeTest" thread-count="2" preserve-order="true">
+    <test name="ConfirmMerchantTopupResponseTest" thread-count="2" preserve-order="true">
         <classes>
             <class name="G2.Project.Test.TS10.Setting"/>
             <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02"/>

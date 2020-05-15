@@ -5,49 +5,29 @@
     <listener class-name="G2.Project.Listener.Listeners"/>
   </listeners>
   <test thread-count="5" name="EmployeeTest(failed)" verbose="0">
-    <parameter name="phone_unregistered" value="6281905218957"/>
-    <parameter name="phone_invalid" value="6281325string"/>
-    <parameter name="phone_registered" value="6281325618362"/>
-    <parameter name="code_invalid" value="S-20"/>
-    <parameter name="code_valid" value="E-20"/>
-    <parameter name="payment_id_valid" value="1"/>
-    <parameter name="payment_id_invalid" value="10"/>
+    <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
     <classes>
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_02">
+      <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_02">
         <methods>
-          <include name="setup"/>
-          <include name="SettingUp"/>
-          <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_02 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
-        <methods>
+          <include name="checkResponseBody"/>
           <include name="setup"/>
           <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
           <include name="checkResponseTime"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_04 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_03">
-        <methods>
-          <include name="setup"/>
-          <include name="checkResponseTime"/>
+          <include name="settingUp"/>
           <include name="checkStatusCode"/>
-          <include name="checkStatusLine"/>
-          <include name="SettingUp"/>
         </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_03 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_05">
+      </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_02 -->
+      <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_01">
         <methods>
-          <include name="setup"/>
           <include name="checkHeader"/>
-          <include name="checkStatusCode"/>
+          <include name="setup"/>
           <include name="checkStatusLine"/>
-          <include name="SettingUp"/>
+          <include name="settingUp"/>
+          <include name="checkDataBody"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
         </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_05 -->
+      </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_01 -->
     </classes>
   </test> <!-- EmployeeTest(failed) -->
 </suite> <!-- Failed suite [Verify Top Up Functionality] -->

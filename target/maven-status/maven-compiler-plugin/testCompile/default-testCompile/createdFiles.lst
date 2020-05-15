@@ -1,4 +1,5 @@
 G2/Project/AppTest.class
+G2/Project/Test/TS13/TC_TransferReceipt_01.class
 G2/Project/Test/TS02/TC_Login_07.class
 G2/Project/Test/TS10/Setting.class
 G2/Project/Test/TS01/TC_Signup_21.class
@@ -22,9 +23,11 @@ G2/Project/Test/TS01/TC_Signup_02.class
 G2/Project/Test/TS12/TC_TopUpBalance_05.class
 G2/Project/Test/TS01/TC_Signup_08.class
 G2/Project/Test/TS02/TC_Login_03.class
+G2/Project/Test/TS11/TC_GetTopUpHistory_02.class
 G2/Project/Test/TS10/TC_ConfirmMerchantTopup_01.class
 G2/Project/Test/TS01/TC_Signup_05.class
 G2/Project/Test/TS01/TC_Signup_10.class
+G2/Project/Test/TS13/TC_TransferReceipt_04.class
 G2/Project/Test/TS01/TC_Signup_16.class
 G2/Project/Test/TS01/TC_Signup_06.class
 G2/Project/Test/TS08/TC_GetBalanceCatalog_02.class
@@ -32,7 +35,9 @@ G2/Project/Test/TS12/TC_TopUpBalance_03.class
 G2/Project/Test/TS07/TC_GetUserBalance_02.class
 G2/Project/Test/TS10/TC_ConfirmMerchantTopup_03.class
 G2/Project/Test/TS02/TC_Login_02.class
+G2/Project/Test/TS13/TC_TransferReceipt_03.class
 G2/Project/Test/TS02/TC_Login_09.class
+G2/Project/Test/TS11/TC_GetTopUpHistory_01.class
 G2/Project/Test/TS01/TC_Signup_19.class
 G2/Project/Test/TS01/TC_Signup_09.class
 G2/Project/Listener/Listeners.class
@@ -40,9 +45,11 @@ G2/Project/Test/TS01/TC_Signup_15.class
 G2/Project/Test/TS07/TC_GetUserBalance_01.class
 G2/Project/Test/TS02/TC_Login_01.class
 G2/Project/Test/TS10/TC_ConfirmMerchantTopup_02.class
+G2/Project/Test/TS13/TC_TransferReceipt_05.class
 G2/Project/Test/TS01/TC_Signup_07.class
 G2/Project/Base/TestBase.class
 G2/Project/Test/TS09/TC_GetPaymentMethod_02.class
+G2/Project/Test/TS13/TC_TransferReceipt_02.class
 G2/Project/Test/TS01/TC_Signup_12.class
 G2/Project/Test/TS01/TC_Signup_03.class
 G2/Project/Test/Value.class

@@ -86,7 +86,7 @@
           <version>2.22.1</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>Testing/TS12.xml</suiteXmlFile>
+              <suiteXmlFile>Testing/TS11.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>

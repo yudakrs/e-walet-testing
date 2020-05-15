@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Top Up Functionality">
+    <listeners>
+        <listener class-name="G2.Project.Listener.Listeners" />
+    </listeners>
+    <test name="GetTopupHistoryResponseTest" thread-count="2" preserve-order="true">
+        <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
+        <classes>
+            <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_02"/>
+            <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_01"/>
+        </classes>
+    </test>
+</suite>

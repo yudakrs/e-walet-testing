@@ -13,7 +13,7 @@ public class TC_TransferReceipt_05 extends Setting {
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        httpRequest.multiPart("transfer-receipt", "string"));
+        httpRequest.multiPart("transfer-receipt", "string");
 
         token = loadToken();
         httpRequest.header("Authorization","Bearer "+token);
@@ -26,17 +26,17 @@ public class TC_TransferReceipt_05 extends Setting {
 
     @Test
     void checkResponseBody() {
-        checkBody(false);
+        checkBody(true);
     }
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("200");
+        checkStatusCode("400");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 ");
+        checkStatusLine("HTTP/1.1 400 ");
     }
 
     @Test
