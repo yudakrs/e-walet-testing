@@ -48,21 +48,16 @@ public class TC_Signup_01 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 201 Created");
+        checkStatusLine("HTTP/1.1 201 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

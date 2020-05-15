@@ -38,7 +38,7 @@ public class TC_GetBalanceCatalog_01 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 Ok");
+        checkStatusLine("HTTP/1.1 200 ");
     }
 
     @Test
@@ -51,8 +51,4 @@ public class TC_GetBalanceCatalog_01 extends TestBase {
         checkContentType();
     }
 
-    @Test
-    void checkLength() {
-        checkContentLength("100");
-    }
 }

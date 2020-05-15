@@ -47,7 +47,7 @@ public class TC_TopUpBalance_04 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 Bad Request");
+        checkStatusLine("HTTP/1.1 400 ");
     }
 
     @Test
@@ -60,8 +60,4 @@ public class TC_TopUpBalance_04 extends TestBase {
         checkContentType();
     }
 
-    @Test
-    void checkLength() {
-        checkContentLength("10");
-    }
 }

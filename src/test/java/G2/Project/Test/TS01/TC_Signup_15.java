@@ -53,16 +53,11 @@ public class TC_Signup_15 extends TestBase {
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

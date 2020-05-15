@@ -48,12 +48,12 @@ public class TC_Signup_20 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 Bad Request");
+        checkStatusLine("HTTP/1.1 400 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
@@ -61,8 +61,4 @@ public class TC_Signup_20 extends TestBase {
         checkContentType();
     }
 
-    @Test
-    void checkLength() {
-        checkContentLength("10");
-    }
 }

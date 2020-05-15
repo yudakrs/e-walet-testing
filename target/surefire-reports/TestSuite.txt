@@ -1,4 +1,76 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.59 s - in TestSuite
+Tests run: 63, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 15.041 s <<< FAILURE! - in TestSuite
+checkDataBody(G2.Project.Test.TS02.TC_Login_01)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.ClassCastException: class java.util.HashMap cannot be cast to class java.lang.String (java.util.HashMap and java.lang.String are in module java.base of loader 'bootstrap')
+	at G2.Project.Test.TS02.TC_Login_01.checkDataBody(TC_Login_01.java:60)
+
+checkLength(G2.Project.Test.TS02.TC_Login_01)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_01.checkLength(TC_Login_01.java:85)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_02)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_02.checkDataBody(TC_Login_02.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_02)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_02.checkLength(TC_Login_02.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_03)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_03.checkDataBody(TC_Login_03.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_03)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_03.checkLength(TC_Login_03.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_04)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_04.checkDataBody(TC_Login_04.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_04)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_04.checkLength(TC_Login_04.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_05)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_05.checkDataBody(TC_Login_05.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_05)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_05.checkLength(TC_Login_05.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_06)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_06.checkDataBody(TC_Login_06.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_06)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_06.checkLength(TC_Login_06.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_07)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_07.checkDataBody(TC_Login_07.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_07)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_07.checkLength(TC_Login_07.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_08)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_08.checkDataBody(TC_Login_08.java:40)
+
+checkLength(G2.Project.Test.TS02.TC_Login_08)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_08.checkLength(TC_Login_08.java:65)
+
+checkDataBody(G2.Project.Test.TS02.TC_Login_09)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS02.TC_Login_09.checkDataBody(TC_Login_09.java:38)
+
+checkLength(G2.Project.Test.TS02.TC_Login_09)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NumberFormatException: null
+	at G2.Project.Test.TS02.TC_Login_09.checkLength(TC_Login_09.java:63)
+

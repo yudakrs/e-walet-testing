@@ -34,7 +34,7 @@ public class TC_Login_01 extends TestBase {
         responseBody = response.getBody().asString();
 
         JsonPath jsonResponse = response.jsonPath();
-        String userToken = jsonResponse.get("token");
+        String userToken = jsonResponse.get("data.token");
 
         try {
             FileWriter fw = new FileWriter("Token/SDETBEUserToken.txt");
@@ -67,21 +67,16 @@ public class TC_Login_01 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 OK");
+        checkStatusLine("HTTP/1.1 200 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

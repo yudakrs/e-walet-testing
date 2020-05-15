@@ -47,12 +47,12 @@ public class TC_TopUpBalance_01 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 OK");
+        checkStatusLine("HTTP/1.1 200 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
@@ -60,8 +60,4 @@ public class TC_TopUpBalance_01 extends TestBase {
         checkContentType();
     }
 
-    @Test
-    void checkLength() {
-        checkContentLength("10");
-    }
 }

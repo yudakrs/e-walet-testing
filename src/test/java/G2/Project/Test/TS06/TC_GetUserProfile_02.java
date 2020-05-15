@@ -34,7 +34,7 @@ public class TC_GetUserProfile_02 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 401 Unauthorized");
+        checkStatusLine("HTTP/1.1 401 ");
     }
 
     @Test

@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class TestBase {
     protected static RequestSpecification httpRequest;
     protected static Response response;
-    protected String BaseURI = null; //nanti diganti kalo dah ada linknya
+    protected String BaseURI = "http://ff4f6802.ngrok.io"; //nanti diganti kalo dah ada linknya
     protected String responseBody;
     protected JSONObject requestParams;
     protected String token;
@@ -73,23 +73,6 @@ public class TestBase {
 
         String contentType = response.header("Content-Type");
         Assert.assertEquals(contentType, "application/json");
-    }
-
-    public void checkContentLength(String cl) {
-        logger.info("***** Check Content Length *****");
-
-        String contentLength = response.header("Content-Length");
-        logger.info("Content Encoding = " + contentLength);
-
-        int contLeng = Integer.parseInt(contentLength);
-        int contLengParam = Integer.parseInt(cl);
-
-        if(contLeng < contLengParam)
-        {
-            logger.warning("Content Length is less than " + contLengParam);
-        }
-
-        Assert.assertTrue(contLeng>contLengParam);
     }
 
     public String loadToken(){

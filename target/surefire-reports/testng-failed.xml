@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify Login Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="LoginResponseTest(failed)" verbose="0">
+    <parameter name="registered_username" value="6281905218958"/>
+    <parameter name="invalid_username" value="6281string"/>
+    <parameter name="registered_password" value="e-Walet@01"/>
+    <parameter name="unregistered_username" value="6285156362125"/>
+    <parameter name="invalid_password" value="ewalet"/>
+    <parameter name="unregistered_password" value="e-Walet@02"/>
+    <classes>
+      <class name="G2.Project.Test.TS02.TC_Login_05">
+        <methods>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="checkLength"/>
+          <include name="setUpTCLogin05"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_05 -->
+      <class name="G2.Project.Test.TS02.TC_Login_01">
+        <methods>
+          <include name="checkLength"/>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="setUpTCLogin01"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_01 -->
+      <class name="G2.Project.Test.TS02.TC_Login_08">
+        <methods>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="checkLength"/>
+          <include name="setUpTCLogin08"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_08 -->
+      <class name="G2.Project.Test.TS02.TC_Login_03">
+        <methods>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="setUpTCLogin03"/>
+          <include name="checkLength"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_03 -->
+      <class name="G2.Project.Test.TS02.TC_Login_09">
+        <methods>
+          <include name="setup"/>
+          <include name="checkLength"/>
+          <include name="checkDataBody"/>
+          <include name="setUpTCLogin09"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_09 -->
+      <class name="G2.Project.Test.TS02.TC_Login_02">
+        <methods>
+          <include name="checkDataBody"/>
+          <include name="checkLength"/>
+          <include name="setup"/>
+          <include name="setUpTCLogin02"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_02 -->
+      <class name="G2.Project.Test.TS02.TC_Login_04">
+        <methods>
+          <include name="checkLength"/>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="setUpTCLogin04"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_04 -->
+      <class name="G2.Project.Test.TS02.TC_Login_07">
+        <methods>
+          <include name="setup"/>
+          <include name="checkLength"/>
+          <include name="setUpTCLogin07"/>
+          <include name="checkDataBody"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_07 -->
+      <class name="G2.Project.Test.TS02.TC_Login_06">
+        <methods>
+          <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="checkLength"/>
+          <include name="setUpTCLogin06"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS02.TC_Login_06 -->
+    </classes>
+  </test> <!-- LoginResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify Login Functionality] -->

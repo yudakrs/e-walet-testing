@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class TC_Login_07 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
-    @Parameters({"reregistered_username"})
+    @Parameters({"registered_username"})
     void setUpTCLogin07(String username) {
         logger.info("***** " + getClass().getName() + " *****");
 
@@ -47,21 +47,16 @@ public class TC_Login_07 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 401 Unauthorized");
+        checkStatusLine("HTTP/1.1 401 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

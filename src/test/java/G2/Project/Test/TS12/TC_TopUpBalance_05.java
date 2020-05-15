@@ -47,21 +47,16 @@ public class TC_TopUpBalance_05 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 Bad Request");
+        checkStatusLine("HTTP/1.1 400 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

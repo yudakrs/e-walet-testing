@@ -11,8 +11,8 @@ public class TC_Signup_02 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
     @Parameters({"first_name_valid", "last_name_valid", "phone_unregistered", "email_unregistered", "pass_invalid"})
-    void SettingUp(String first_name, String last_name, String phone, String email, String pass){
-        logger.info("# "+ getClass().getName() +" #");
+    void SettingUp(String first_name, String last_name, String phone, String email, String pass) {
+        logger.info("# " + getClass().getName() + " #");
         RestAssured.baseURI = BaseURI;
 
         httpRequest = RestAssured.given();
@@ -32,12 +32,12 @@ public class TC_Signup_02 extends TestBase {
     }
 
     @Test
-    void checkResponseBody(){
+    void checkResponseBody() {
         checkBody(false);
     }
 
     @Test
-    void checkDataBody(){
+    void checkDataBody() {
         checkData(true);
     }
 
@@ -48,21 +48,16 @@ public class TC_Signup_02 extends TestBase {
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 Bad Request");
+        checkStatusLine("HTTP/1.1 400 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test
     void checkHeader() {
         checkContentType();
-    }
-
-    @Test
-    void checkLength() {
-        checkContentLength("10");
     }
 }

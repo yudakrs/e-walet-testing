@@ -7,8 +7,8 @@ import io.restassured.path.json.JsonPath;
 import org.testng.annotations.BeforeTest;
 
 public class Setting extends TestBase {
-    private static String paytoken;
-    private static String invoice;
+    protected static String paytoken;
+    protected static String invoice;
     @SuppressWarnings("unchecked")
     @BeforeTest
     void SettingUp() {
