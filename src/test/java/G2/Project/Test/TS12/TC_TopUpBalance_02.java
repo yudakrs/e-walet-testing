@@ -3,6 +3,7 @@ package G2.Project.Test.TS12;
 import G2.Project.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+import org.json.simple.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 public class TC_TopUpBalance_02 extends TestBase {
     @SuppressWarnings("unchecked")
     @BeforeClass
-    @Parameters({"phone_number_invalid", "code_valid", "payment_id_valid"})
+    @Parameters({"phone_invalid", "code_valid", "payment_id_valid"})
     void SettingUp(String phone_number, String code, String payment_id) {
         token = loadToken();
 
@@ -20,7 +21,7 @@ public class TC_TopUpBalance_02 extends TestBase {
         httpRequest.header("Authorization", "Bearer "+token);
         httpRequest.header("Content-Type", "application/json");
 
-        requestParams.put("phone_number",phone_number);
+        requestParams.put("phone_number", phone_number);
         requestParams.put("code",code);
         requestParams.put("payment_method_id",payment_id);
 
@@ -33,11 +34,6 @@ public class TC_TopUpBalance_02 extends TestBase {
     @Test
     void checkResponseBody(){
         checkBody(false);
-    }
-
-    @Test
-    void checkDataBody(){
-        checkData(true);
     }
 
     @Test

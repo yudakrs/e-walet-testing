@@ -37,11 +37,6 @@ public class TC_Signup_16 extends TestBase {
     }
 
     @Test
-    void checkDataBody(){
-        checkData(true);
-    }
-
-    @Test
     void checkStatusCode() {
         checkStatusCode("400");
     }

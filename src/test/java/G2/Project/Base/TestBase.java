@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.io.FileReader;
 import java.io.BufferedReader;
+import java.util.HashMap;
 import java.util.logging.Logger;
 
 public class TestBase {
@@ -17,7 +18,7 @@ public class TestBase {
     protected static Response response;
     protected String BaseURI = "http://ff4f6802.ngrok.io"; //nanti diganti kalo dah ada linknya
     protected String responseBody;
-    protected JSONObject requestParams;
+    protected JSONObject requestParams = new JSONObject();
     protected String token;
 
     protected Logger logger;
@@ -33,7 +34,7 @@ public class TestBase {
         logger.info("***** Check Data Field *****");
 
         JsonPath jsondata = response.jsonPath();
-        String data = jsondata.get("data");
+        String data = jsondata.get("data").toString();
         logger.info("Data = " + data);
         Assert.assertTrue(data.isEmpty() == isNull);
     }

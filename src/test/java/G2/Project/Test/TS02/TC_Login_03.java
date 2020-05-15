@@ -36,11 +36,6 @@ public class TC_Login_03 extends TestBase {
     }
 
     @Test
-    void checkDataBody(){
-        checkData(true);
-    }
-
-    @Test
     void checkStatusCode() {
         checkStatusCode("401");
     }

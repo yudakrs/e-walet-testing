@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify GetUserProfile Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="GetUserProfileResponseTest(failed)" verbose="0">
+    <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
+    <classes>
+      <class name="G2.Project.Test.TS06.TC_GetUserProfile_02">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="setup"/>
+          <include name="setUpTCGetUserProfile02"/>
+          <include name="checkResponseBody"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_02 -->
+    </classes>
+  </test> <!-- GetUserProfileResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify GetUserProfile Functionality] -->

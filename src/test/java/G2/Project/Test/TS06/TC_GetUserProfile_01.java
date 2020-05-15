@@ -15,6 +15,7 @@ public class TC_GetUserProfile_01 extends TestBase {
         httpRequest = RestAssured.given();
 
         String userToken = loadToken();
+
         httpRequest.header("Authorization", "Bearer " + userToken);
         response = httpRequest.request(Method.GET, "/get-user-profile");
 

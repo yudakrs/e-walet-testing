@@ -3,6 +3,9 @@ package G2.Project.Test.TS07;
 import G2.Project.Base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
+import org.json.simple.JSONObject;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -28,7 +31,10 @@ public class TC_GetUserBalance_01 extends TestBase {
 
     @Test
     void checkDataBody(){
-        checkData(false);
+        JsonPath data = response.jsonPath();
+        int amount = data.get("amount");
+
+        Assert.assertTrue(amount >= 0);
     }
 
     @Test

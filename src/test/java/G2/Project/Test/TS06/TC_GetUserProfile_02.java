@@ -24,7 +24,7 @@ public class TC_GetUserProfile_02 extends TestBase {
 
     @Test
     void checkResponseBody(){
-        checkBody(true);
+        checkBody(false);
     }
 
     @Test

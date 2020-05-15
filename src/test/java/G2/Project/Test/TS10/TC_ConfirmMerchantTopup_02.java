@@ -26,11 +26,6 @@ public class TC_ConfirmMerchantTopup_02 extends Setting {
     }
 
     @Test
-    void checkDataBody(){
-        checkData(false);
-    }
-
-    @Test
     void checkStatusCode() {
         checkStatusCode("400");
     }

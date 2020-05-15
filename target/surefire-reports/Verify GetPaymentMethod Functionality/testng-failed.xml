@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify GetPaymentMethod Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="GetPaymentMethodResponseTest(failed)" verbose="0">
+    <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
+    <classes>
+      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_02">
+        <methods>
+          <include name="setup"/>
+          <include name="checkStatusCode"/>
+          <include name="setUpTCGetPaymentMethod02"/>
+          <include name="checkStatusLine"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_02 -->
+    </classes>
+  </test> <!-- GetPaymentMethodResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify GetPaymentMethod Functionality] -->

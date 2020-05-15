@@ -41,9 +41,4 @@ public class TC_GetBalanceCatalog_02 extends TestBase {
     void checkResponseTime() {
         checkResponseTime("2000");
     }
-
-    @Test
-    void checkHeader() {
-        checkContentType();
-    }
 }

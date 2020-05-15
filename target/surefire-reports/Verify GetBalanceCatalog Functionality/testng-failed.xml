@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify GetBalanceCatalog Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="GetBalanceCatalogResponseTest(failed)" verbose="0">
+    <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
+    <classes>
+      <class name="G2.Project.Test.TS08.TC_GetBalanceCatalog_02">
+        <methods>
+          <include name="setup"/>
+          <include name="setUpTCGetBalanceCatalog02"/>
+          <include name="checkHeader"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS08.TC_GetBalanceCatalog_02 -->
+    </classes>
+  </test> <!-- GetBalanceCatalogResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify GetBalanceCatalog Functionality] -->
