@@ -38,12 +38,12 @@ public class TC_TopUpBalance_04 extends TestBase {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("400");
+        checkStatusCode("404");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 ");
+        checkStatusLine("HTTP/1.1 404 ");
     }
 
     @Test

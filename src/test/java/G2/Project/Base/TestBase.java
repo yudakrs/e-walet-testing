@@ -37,7 +37,6 @@ public class TestBase {
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
 
-            fh.close();
         } catch (SecurityException e) {
             e.printStackTrace();
         } catch (IOException e) {

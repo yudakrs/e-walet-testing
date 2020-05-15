@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.348 s - in TestSuite
+Tests run: 26, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 7.786 s <<< FAILURE! - in TestSuite
+checkResponseTime(G2.Project.Test.TS12.TC_TopUpBalance_03)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Test.TS12.TC_TopUpBalance_03.checkResponseTime(TC_TopUpBalance_03.java:51)
+
+checkResponseTime(G2.Project.Test.TS12.TC_TopUpBalance_04)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Test.TS12.TC_TopUpBalance_04.checkResponseTime(TC_TopUpBalance_04.java:51)
+

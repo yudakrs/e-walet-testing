@@ -8,14 +8,14 @@ import org.testng.annotations.BeforeTest;
 
 public class Setting extends TestBase {
     protected static String paytoken;
-    protected static String invoice;
+    protected static int invoice;
     @SuppressWarnings("unchecked")
     @BeforeTest
     void SettingUp() {
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        requestParams.put("phone_number", "6281325618362");
+        requestParams.put("phone_number", "6281905218958");
         requestParams.put("code", "E-20");
         requestParams.put("payment_method_id", "2");
 
@@ -35,7 +35,7 @@ public class Setting extends TestBase {
         return paytoken;
     }
 
-    public static String GetId() {
+    public static int GetId() {
         return invoice;
     }
 }

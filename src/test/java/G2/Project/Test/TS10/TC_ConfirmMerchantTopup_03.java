@@ -26,18 +26,13 @@ public class TC_ConfirmMerchantTopup_03 extends Setting {
     }
 
     @Test
-    void checkDataBody(){
-        checkData(false);
-    }
-
-    @Test
     void checkStatusCode() {
-        checkStatusCode("400");
+        checkStatusCode("406");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 ");
+        checkStatusLine("HTTP/1.1 406 ");
     }
 
     @Test

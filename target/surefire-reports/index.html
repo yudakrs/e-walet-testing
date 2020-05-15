@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Verify_Top_Up_Functionality" class="navigator-link">
-              <span class="suite-name border-passed">Verify Top Up Functionality</span>
+              <span class="suite-name border-failed">Verify Top Up Functionality</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Verify_Top_Up_Functionality" class="navigator-link ">
-                    <span>TS11.xml</span>
+                    <span>TS12.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">26 methods, 2 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Verify_Top_Up_Functionality" class="hide-methods failed suite-Verify_Top_Up_Functionality"> (hide)</a> <!-- hide-methods failed suite-Verify_Top_Up_Functionality -->
+                      <a href="#" panel-name="suite-Verify_Top_Up_Functionality" class="show-methods failed suite-Verify_Top_Up_Functionality"> (show)</a> <!-- show-methods failed suite-Verify_Top_Up_Functionality -->
+                    </span>
+                    <div class="method-list-content failed suite-Verify_Top_Up_Functionality">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_03" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_04" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Verify_Top_Up_Functionality -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,52 +121,122 @@
                     <div class="method-list-content passed suite-Verify_Top_Up_Functionality">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkDataBody">checkDataBody</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkDataBody">checkDataBody</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_03" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_02" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_02" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_05" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_02" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_04" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkHeader">checkHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_02" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_02" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_02" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_04" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS11.TC_GetTopUpHistory_01" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_05" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_03" class="method navigator-link" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_05" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_02" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_03" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_02" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_04" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_05" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_05" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_02" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_01" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_03" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Verify_Top_Up_Functionality" title="G2.Project.Test.TS12.TC_TopUpBalance_04" class="method navigator-link" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Verify_Top_Up_Functionality -->
@@ -162,46 +251,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Verify_Top_Up_Functionality" class="panel Verify_Top_Up_Functionality">
-          <div class="suite-Verify_Top_Up_Functionality-class-passed">
+          <div class="suite-Verify_Top_Up_Functionality-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">G2.Project.Test.TS11.TC_GetTopUpHistory_02</span>
+              <img src="failed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_04</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkResponseBody">
-                  </a> <!-- checkResponseBody -->
-                  <span class="method-name">checkResponseBody</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="checkResponseTime">
                   </a> <!-- checkResponseTime -->
                   <span class="method-name">checkResponseTime</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkStatusCode">
-                  </a> <!-- checkStatusCode -->
-                  <span class="method-name">checkStatusCode</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkStatusLine">
-                  </a> <!-- checkStatusLine -->
-                  <span class="method-name">checkStatusLine</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Base.TestBase.checkResponseTime(TestBase.java:76)
+	at G2.Project.Test.TS12.TC_TopUpBalance_04.checkResponseTime(TC_TopUpBalance_04.java:51)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-failed -->
+          <div class="suite-Verify_Top_Up_Functionality-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Base.TestBase.checkResponseTime(TestBase.java:76)
+	at G2.Project.Test.TS12.TC_TopUpBalance_03.checkResponseTime(TC_TopUpBalance_03.java:51)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-failed -->
           <div class="suite-Verify_Top_Up_Functionality-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">G2.Project.Test.TS11.TC_GetTopUpHistory_01</span>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -248,10 +341,168 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
+          <div class="suite-Verify_Top_Up_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHeader">
+                  </a> <!-- checkHeader -->
+                  <span class="method-name">checkHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
+          <div class="suite-Verify_Top_Up_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHeader">
+                  </a> <!-- checkHeader -->
+                  <span class="method-name">checkHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
+          <div class="suite-Verify_Top_Up_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHeader">
+                  </a> <!-- checkHeader -->
+                  <span class="method-name">checkHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
+          <div class="suite-Verify_Top_Up_Functionality-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">G2.Project.Test.TS12.TC_TopUpBalance_05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHeader">
+                  </a> <!-- checkHeader -->
+                  <span class="method-name">checkHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Verify_Top_Up_Functionality-class-passed -->
         </div> <!-- panel Verify_Top_Up_Functionality -->
         <div panel-name="test-xml-Verify_Top_Up_Functionality" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/krissetiawany/IdeaProjects/eWalet/Testing/TS11.xml</span>
+            <span class="header-content">/Users/krissetiawany/IdeaProjects/eWalet/Testing/TS12.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -261,13 +512,22 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;G2.Project.Listener.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;GetTopupHistoryResponseTest&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;invalid_token&quot; value=&quot;eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD&quot;/&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;TopupBalanceResponseTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;phone_unregistered&quot; value=&quot;6281905218957&quot;/&gt;
+    &lt;parameter name=&quot;phone_invalid&quot; value=&quot;6281325string&quot;/&gt;
+    &lt;parameter name=&quot;phone_registered&quot; value=&quot;6281325618362&quot;/&gt;
+    &lt;parameter name=&quot;code_invalid&quot; value=&quot;S-20&quot;/&gt;
+    &lt;parameter name=&quot;code_valid&quot; value=&quot;E-20&quot;/&gt;
+    &lt;parameter name=&quot;payment_id_valid&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;payment_id_invalid&quot; value=&quot;10&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;G2.Project.Test.TS11.TC_GetTopUpHistory_02&quot;/&gt;
-      &lt;class name=&quot;G2.Project.Test.TS11.TC_GetTopUpHistory_01&quot;/&gt;
+      &lt;class name=&quot;G2.Project.Test.TS12.TC_TopUpBalance_02&quot;/&gt;
+      &lt;class name=&quot;G2.Project.Test.TS12.TC_TopUpBalance_03&quot;/&gt;
+      &lt;class name=&quot;G2.Project.Test.TS12.TC_TopUpBalance_04&quot;/&gt;
+      &lt;class name=&quot;G2.Project.Test.TS12.TC_TopUpBalance_05&quot;/&gt;
+      &lt;class name=&quot;G2.Project.Test.TS12.TC_TopUpBalance_01&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- GetTopupHistoryResponseTest --&gt;
+  &lt;/test&gt; &lt;!-- TopupBalanceResponseTest --&gt;
 &lt;/suite&gt; &lt;!-- Verify Top Up Functionality --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,7 +539,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">GetTopupHistoryResponseTest (2 classes)</span>
+                <span class="test-name">TopupBalanceResponseTest (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -305,52 +565,116 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(26);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkDataBody')
-data.setCell(0, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(0, 3, 207);
+data.setCell(0, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(0, 3, 203);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkResponseBody')
-data.setCell(1, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_02')
-data.setCell(1, 3, 2);
+data.setCell(1, 1, 'checkHeader')
+data.setCell(1, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_02')
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkStatusLine')
-data.setCell(2, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(2, 3, 2);
+data.setCell(2, 1, 'checkStatusCode')
+data.setCell(2, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_03')
+data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkResponseTime')
-data.setCell(3, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_02')
-data.setCell(3, 3, 1);
+data.setCell(3, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_03')
+data.setCell(3, 3, 3);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkStatusLine')
-data.setCell(4, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_02')
-data.setCell(4, 3, 1);
+data.setCell(4, 1, 'checkResponseTime')
+data.setCell(4, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_04')
+data.setCell(4, 3, 3);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkStatusCode')
-data.setCell(5, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(5, 3, 1);
+data.setCell(5, 1, 'checkHeader')
+data.setCell(5, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_03')
+data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkStatusCode')
-data.setCell(6, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_02')
-data.setCell(6, 3, 1);
+data.setCell(6, 1, 'checkResponseTime')
+data.setCell(6, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_05')
+data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'checkResponseTime')
-data.setCell(7, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(7, 3, 1);
+data.setCell(7, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_02')
+data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkHeader')
-data.setCell(8, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(8, 3, 1);
+data.setCell(8, 1, 'checkStatusLine')
+data.setCell(8, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_05')
+data.setCell(8, 3, 2);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkResponseBody')
-data.setCell(9, 2, 'G2.Project.Test.TS11.TC_GetTopUpHistory_01')
-data.setCell(9, 3, 0);
+data.setCell(9, 1, 'checkHeader')
+data.setCell(9, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_05')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkHeader')
+data.setCell(10, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_04')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkResponseBody')
+data.setCell(11, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_03')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkStatusLine')
+data.setCell(12, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_04')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkResponseTime')
+data.setCell(13, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkStatusCode')
+data.setCell(14, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkStatusCode')
+data.setCell(15, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_02')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkStatusCode')
+data.setCell(16, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_04')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkStatusCode')
+data.setCell(17, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_05')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkResponseBody')
+data.setCell(18, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkResponseBody')
+data.setCell(19, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_02')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkStatusLine')
+data.setCell(20, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_02')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkResponseBody')
+data.setCell(21, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_04')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkResponseBody')
+data.setCell(22, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_05')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkStatusLine')
+data.setCell(23, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkStatusLine')
+data.setCell(24, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_03')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkHeader')
+data.setCell(25, 2, 'G2.Project.Test.TS12.TC_TopUpBalance_01')
+data.setCell(25, 3, 1);
 window.suiteTableData['Verify_Top_Up_Functionality']= { tableData: data, tableDiv: 'times-div-Verify_Top_Up_Functionality'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 217 ms</span>
+              <span class="suite-total-time">Total running time: 256 ms</span>
               <div id="times-div-Verify_Top_Up_Functionality">
               </div> <!-- times-div-Verify_Top_Up_Functionality -->
             </div> <!-- times-div -->
@@ -376,65 +700,166 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">G2.Project.Test.TS11.TC_GetTopUpHistory_02</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">G2.Project.Test.TS12.TC_TopUpBalance_02</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">settingUp(eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qt...)</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-name">SettingUp(6281325string, E-20, 1)</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">checkHeader</span>
+                <span class="method-start">2281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">checkResponseBody</span>
-                <span class="method-start">2200 ms</span>
+                <span class="method-start">2300 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkResponseTime</span>
-                <span class="method-start">2209 ms</span>
+                <span class="method-start">2301 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">2211 ms</span>
+                <span class="method-start">2304 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusLine</span>
-                <span class="method-start">2213 ms</span>
+                <span class="method-start">2307 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">G2.Project.Test.TS11.TC_GetTopUpHistory_01</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">G2.Project.Test.TS12.TC_TopUpBalance_03</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">2216 ms</span>
+                <span class="method-start">2310 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">settingUp</span>
-                <span class="method-start">2217 ms</span>
+                <span class="method-name">SettingUp(6281905218957, E-20, 1)</span>
+                <span class="method-start">2317 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">checkDataBody</span>
-                <span class="method-start">3401 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">checkHeader</span>
-                <span class="method-start">3609 ms</span>
+                <span class="method-start">3570 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkResponseBody</span>
-                <span class="method-start">3611 ms</span>
+                <span class="method-start">3574 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkResponseTime</span>
-                <span class="method-start">3612 ms</span>
+                <span class="method-start">3577 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">3614 ms</span>
+                <span class="method-start">3587 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusLine</span>
-                <span class="method-start">3617 ms</span>
+                <span class="method-start">3591 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">G2.Project.Test.TS12.TC_TopUpBalance_04</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3594 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">SettingUp(6281325618362, S-20, 1)</span>
+                <span class="method-start">3596 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkHeader</span>
+                <span class="method-start">4683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">4687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">4690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">4694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">4697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">G2.Project.Test.TS12.TC_TopUpBalance_05</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4701 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">SettingUp(6281325618362, E-20, 10)</span>
+                <span class="method-start">4703 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkHeader</span>
+                <span class="method-start">5781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">5785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">5788 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">5791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">5794 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">G2.Project.Test.TS12.TC_TopUpBalance_01</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">5797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">SettingUp(6281325618362, E-20, 1)</span>
+                <span class="method-start">5799 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkDataBody</span>
+                <span class="method-start">6951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkHeader</span>
+                <span class="method-start">7155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">7156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">7158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">7160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">7163 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
