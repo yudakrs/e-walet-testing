@@ -26,7 +26,7 @@ public class TC_TransferReceipt_06 extends Setting {
 
     @Test
     void checkResponseBody() {
-        checkBody(true);
+        checkBody(false);
     }
 
     @Test

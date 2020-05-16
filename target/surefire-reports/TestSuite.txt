@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.838 s - in TestSuite
+Tests run: 159, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.05 s <<< FAILURE! - in TestSuite
+checkResponseBody(G2.Project.Test.TS13.TC_TransferReceipt_06)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Test.TS13.TC_TransferReceipt_06.checkResponseBody(TC_TransferReceipt_06.java:29)
+
+checkResponseTime(G2.Project.Test.TS13.TC_TransferReceipt_06)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at G2.Project.Test.TS13.TC_TransferReceipt_06.checkResponseTime(TC_TransferReceipt_06.java:44)
+
