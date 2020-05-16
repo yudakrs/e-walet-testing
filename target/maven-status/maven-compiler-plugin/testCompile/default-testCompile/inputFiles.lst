@@ -32,6 +32,7 @@
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS13/Setting.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS01/TC_Signup_18.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS02/TC_Login_02.java
+/Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS13/TC_TransferReceipt_07.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS01/TC_Signup_16.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS01/TC_Signup_08.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS10/Setting.java
@@ -40,6 +41,7 @@
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS12/TC_TopUpBalance_03.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS01/TC_Signup_17.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS02/TC_Login_01.java
+/Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS13/TC_TransferReceipt_08.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS12/TC_TopUpBalance_04.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS02/TC_Login_07.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS01/TC_Signup_10.java
@@ -56,5 +58,6 @@
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS07/TC_GetUserBalance_02.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS12/TC_TopUpBalance_02.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS10/TC_ConfirmMerchantTopup_03.java
+/Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS13/TC_TransferReceipt_06.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/Test/TS13/TC_TransferReceipt_03.java
 /Users/krissetiawany/IdeaProjects/eWalet/src/test/java/G2/Project/AppTest.java

@@ -15,9 +15,9 @@ public class Setting extends TestBase {
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        requestParams.put("phone_number", "6281325618362");
+        requestParams.put("phone_number", "6281905218958");
         requestParams.put("code", "E-20");
-        requestParams.put("payment_method_id", "1");
+        requestParams.put("payment_method_id", 1);
 
         httpRequest.body(requestParams.toJSONString());
         httpRequest.header("Content-Type", "application/json");
@@ -29,6 +29,7 @@ public class Setting extends TestBase {
         JsonPath resp = response.jsonPath();
         paytoken = resp.get("data.token");
         invoice = resp.get("data.invoice_id");
+        System.out.println(paytoken);
     }
 
     public static String GetPay() {

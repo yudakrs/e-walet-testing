@@ -5,7 +5,7 @@
     </listeners>
     <test name="TopupBalanceResponseTest" thread-count="4">
         <parameter name="phone_unregistered" value="6281905218957"/>
-        <parameter name="phone_registered" value="6281325618362"/>
+        <parameter name="phone_registered" value="6281905218958"/>
         <parameter name="phone_invalid" value="6281325string"/>
         <parameter name="code_valid" value="E-20"/>
         <parameter name="code_invalid" value="S-20"/>

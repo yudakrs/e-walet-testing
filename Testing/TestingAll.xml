@@ -9,5 +9,6 @@
         <suite-file path="/Testing/TS10.xml"/>
         <suite-file path="/Testing/TS11.xml"/>
         <suite-file path="/Testing/TS12.xml"/>
+        <suite-file path="/Testing/TS13.xml"/>
     </suite-files>
 </suite>

@@ -4,29 +4,18 @@
   <listeners>
     <listener class-name="G2.Project.Listener.Listeners"/>
   </listeners>
-  <test thread-count="5" name="TopupBalanceResponseTest(failed)" verbose="0">
-    <parameter name="phone_unregistered" value="6281905218957"/>
-    <parameter name="phone_invalid" value="6281325string"/>
-    <parameter name="phone_registered" value="6281325618362"/>
-    <parameter name="code_invalid" value="S-20"/>
-    <parameter name="code_valid" value="E-20"/>
-    <parameter name="payment_id_valid" value="1"/>
-    <parameter name="payment_id_invalid" value="10"/>
+  <test thread-count="5" name="UploadReceiptResponseTest(failed)" verbose="0">
     <classes>
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_01">
         <methods>
+          <include name="checkHeader"/>
+          <include name="checkStatusCode"/>
           <include name="setup"/>
-          <include name="checkResponseTime"/>
+          <include name="checkResponseBody"/>
           <include name="SettingUp"/>
+          <include name="checkStatusLine"/>
         </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_04 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_03">
-        <methods>
-          <include name="setup"/>
-          <include name="checkResponseTime"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_03 -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_01 -->
     </classes>
-  </test> <!-- TopupBalanceResponseTest(failed) -->
+  </test> <!-- UploadReceiptResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify Top Up Functionality] -->

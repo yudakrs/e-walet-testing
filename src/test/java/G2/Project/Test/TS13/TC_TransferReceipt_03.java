@@ -13,11 +13,11 @@ public class TC_TransferReceipt_03 extends Setting {
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        httpRequest.multiPart("transfer-receipt", new File("File/File1MB.pdf"));
+        httpRequest.multiPart("transfer_receipt", new File("File/PDFLessThan2MB.pdf"));
 
         token = loadToken();
         httpRequest.header("Authorization","Bearer "+token);
-        httpRequest.header("Content-Type", "multi-part/form-data");
+        httpRequest.header("Content-Type", "multipart/form-data");
 
         response = httpRequest.request(Method.GET, "upload-transfer-receipt/"+paytoken);
 

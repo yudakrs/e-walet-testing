@@ -5,19 +5,21 @@ import io.restassured.http.Method;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class TC_TransferReceipt_06 extends Setting {
     @BeforeClass
     void SettingUp() {
         RestAssured.baseURI = BaseURI;
         httpRequest = RestAssured.given();
 
-        httpRequest.multiPart("transfer-receipt", "string");
+        httpRequest.multiPart("transfer_receipt", new File("File/ImageLessThan2MB.jpg"));
 
         token = loadToken();
         httpRequest.header("Authorization","Bearer "+token);
-        httpRequest.header("Content-Type", "multi-part/form-data");
+        httpRequest.header("Content-Type", "multipart/form-data");
 
-        response = httpRequest.request(Method.POST, "upload-transfer-receipt/"+invoice);
+        response = httpRequest.request(Method.POST, "upload-transfer-receipt/628132561832");
 
         responseBody = response.getBody().asString();
     }
@@ -29,12 +31,12 @@ public class TC_TransferReceipt_06 extends Setting {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("400");
+        checkStatusCode("406");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 400 ");
+        checkStatusLine("HTTP/1.1 406 ");
     }
 
     @Test
