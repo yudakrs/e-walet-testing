@@ -24,7 +24,7 @@ public class TC_GetUserProfile_02 extends TestBase {
 
     @Test
     void checkResponseBody(){
-        checkBody(false);
+        checkBody(true);
     }
 
     @Test
@@ -42,8 +42,4 @@ public class TC_GetUserProfile_02 extends TestBase {
         checkResponseTime("2000");
     }
 
-    @Test
-    void checkHeader() {
-        checkContentType();
-    }
 }

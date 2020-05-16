@@ -1,14 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Testing Parent Suite" preserve-order="true">
     <suite-files>
-        <suite-file path="/Testing/TS02.xml"/>
-        <suite-file path="/Testing/TS06.xml"/>
-        <suite-file path="/Testing/TS07.xml"/>
-        <suite-file path="/Testing/TS08.xml"/>
-        <suite-file path="/Testing/TS09.xml"/>
-        <suite-file path="/Testing/TS10.xml"/>
-        <suite-file path="/Testing/TS11.xml"/>
-        <suite-file path="/Testing/TS12.xml"/>
-        <suite-file path="/Testing/TS13.xml"/>
+        <suite-file path="TS02.xml"/>
+        <suite-file path="TS06.xml"/>
+        <suite-file path="TS07.xml"/>
+        <suite-file path="TS08.xml"/>
+        <suite-file path="TS09.xml"/>
+        <suite-file path="TS10.xml"/>
+        <suite-file path="TS11.xml"/>
+        <suite-file path="TS12.xml"/>
+        <suite-file path="TS13.xml"/>
     </suite-files>
 </suite>
