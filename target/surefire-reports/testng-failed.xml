@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Verify Top Up Functionality (2)]" guice-stage="DEVELOPMENT" verbose="0">
+<suite name="Failed suite [Verify Login Functionality]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="G2.Project.Listener.Listeners"/>
   </listeners>
-  <test thread-count="5" name="UploadReceiptResponseTest(failed)" verbose="0">
+  <test thread-count="5" name="LoginResponseTest(failed)" verbose="0">
+    <parameter name="registered_username" value="6281905218958"/>
+    <parameter name="invalid_username" value="6281string"/>
+    <parameter name="registered_password" value="e-Walet@01"/>
+    <parameter name="unregistered_username" value="6285156362125"/>
+    <parameter name="invalid_password" value="ewalet"/>
+    <parameter name="unregistered_password" value="e-Walet@02"/>
     <classes>
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_06">
+      <class name="G2.Project.Test.TS02.TC_Login_01">
         <methods>
-          <include name="checkResponseBody"/>
-          <include name="setup"/>
           <include name="checkResponseTime"/>
-          <include name="SettingUp"/>
+          <include name="setup"/>
+          <include name="setUpTCLogin01"/>
         </methods>
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_06 -->
+      </class> <!-- G2.Project.Test.TS02.TC_Login_01 -->
     </classes>
-  </test> <!-- UploadReceiptResponseTest(failed) -->
-</suite> <!-- Failed suite [Verify Top Up Functionality (2)] -->
+  </test> <!-- LoginResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify Login Functionality] -->

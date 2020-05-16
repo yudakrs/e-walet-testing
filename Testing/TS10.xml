@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Verify Top Up Functionality">
+<suite name="Verify ConfirmMerchantTopUp Functionality">
     <listeners>
         <listener class-name="G2.Project.Listener.Listeners" />
     </listeners>

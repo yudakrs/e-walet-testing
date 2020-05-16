@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="159" passed="159" failed="0" skipped="0">
+<testng-results ignored="0" total="159" passed="158" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-16T13:58:10Z" name="Testing Parent Suite" finished-at="2020-05-16T13:58:10Z" duration-ms="0">
+  <suite started-at="2020-05-16T14:22:21Z" name="Testing Parent Suite" finished-at="2020-05-16T14:22:21Z" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Testing Parent Suite -->
-  <suite started-at="2020-05-16T13:57:24Z" name="Verify Login Functionality" finished-at="2020-05-16T13:57:36Z" duration-ms="12488">
+  <suite started-at="2020-05-16T14:21:35Z" name="Verify Login Functionality" finished-at="2020-05-16T14:21:49Z" duration-ms="13797">
     <groups>
     </groups>
-    <test started-at="2020-05-16T13:57:24Z" name="LoginResponseTest" finished-at="2020-05-16T13:57:36Z" duration-ms="12488">
+    <test started-at="2020-05-16T14:21:35Z" name="LoginResponseTest" finished-at="2020-05-16T14:21:49Z" duration-ms="13797">
       <class name="G2.Project.Test.TS02.TC_Login_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:27Z" name="setup" finished-at="2020-05-16T13:57:27Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:39Z" name="setup" finished-at="2020-05-16T14:21:39Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin02(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:27Z" name="setUpTCLogin02" finished-at="2020-05-16T13:57:28Z" duration-ms="1027" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin02(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:39Z" name="setUpTCLogin02" finished-at="2020-05-16T14:21:40Z" duration-ms="1095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,33 +31,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin02 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:28Z" name="checkHeader" finished-at="2020-05-16T13:57:28Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:40Z" name="checkHeader" finished-at="2020-05-16T14:21:40Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:28Z" name="checkResponseBody" finished-at="2020-05-16T13:57:28Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:40Z" name="checkResponseBody" finished-at="2020-05-16T14:21:40Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:28Z" name="checkResponseTime" finished-at="2020-05-16T13:57:28Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:40Z" name="checkResponseTime" finished-at="2020-05-16T14:21:40Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:28Z" name="checkStatusCode" finished-at="2020-05-16T13:57:28Z" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:40Z" name="checkStatusCode" finished-at="2020-05-16T14:21:40Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T13:57:28Z" name="checkStatusLine" finished-at="2020-05-16T13:57:28Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_02@6c3f5566]" started-at="2020-05-16T14:21:40Z" name="checkStatusLine" finished-at="2020-05-16T14:21:40Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_02 -->
       <class name="G2.Project.Test.TS02.TC_Login_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:24Z" name="setup" finished-at="2020-05-16T13:57:24Z" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:35Z" name="setup" finished-at="2020-05-16T14:21:35Z" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin01(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:24Z" name="setUpTCLogin01" finished-at="2020-05-16T13:57:27Z" duration-ms="2571" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin01(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:35Z" name="setUpTCLogin01" finished-at="2020-05-16T14:21:39Z" duration-ms="3077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,37 +73,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin01 -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkDataBody" finished-at="2020-05-16T13:57:27Z" duration-ms="10" status="PASS">
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkDataBody" finished-at="2020-05-16T14:21:39Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkHeader" finished-at="2020-05-16T13:57:27Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkHeader" finished-at="2020-05-16T14:21:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkResponseBody" finished-at="2020-05-16T13:57:27Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkResponseBody" finished-at="2020-05-16T14:21:39Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkResponseTime" finished-at="2020-05-16T13:57:27Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkResponseTime" finished-at="2020-05-16T14:21:39Z" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at G2.Project.Base.TestBase.checkResponseTime(TestBase.java:76)
+at G2.Project.Test.TS02.TC_Login_01.checkResponseTime(TC_Login_01.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkStatusCode" finished-at="2020-05-16T13:57:27Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkStatusCode" finished-at="2020-05-16T14:21:39Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T13:57:27Z" name="checkStatusLine" finished-at="2020-05-16T13:57:27Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_01@6a396c1e]" started-at="2020-05-16T14:21:39Z" name="checkStatusLine" finished-at="2020-05-16T14:21:39Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_01 -->
       <class name="G2.Project.Test.TS02.TC_Login_04">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:29Z" name="setup" finished-at="2020-05-16T13:57:29Z" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:41Z" name="setup" finished-at="2020-05-16T14:21:41Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin04(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:29Z" name="setUpTCLogin04" finished-at="2020-05-16T13:57:30Z" duration-ms="1213" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin04(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:41Z" name="setUpTCLogin04" finished-at="2020-05-16T14:21:43Z" duration-ms="1407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,33 +164,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin04 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:30Z" name="checkHeader" finished-at="2020-05-16T13:57:30Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:43Z" name="checkHeader" finished-at="2020-05-16T14:21:43Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:30Z" name="checkResponseBody" finished-at="2020-05-16T13:57:30Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:43Z" name="checkResponseBody" finished-at="2020-05-16T14:21:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:30Z" name="checkResponseTime" finished-at="2020-05-16T13:57:30Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:43Z" name="checkResponseTime" finished-at="2020-05-16T14:21:43Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:30Z" name="checkStatusCode" finished-at="2020-05-16T13:57:30Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:43Z" name="checkStatusCode" finished-at="2020-05-16T14:21:43Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T13:57:30Z" name="checkStatusLine" finished-at="2020-05-16T13:57:30Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_04@314c508a]" started-at="2020-05-16T14:21:43Z" name="checkStatusLine" finished-at="2020-05-16T14:21:43Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_04 -->
       <class name="G2.Project.Test.TS02.TC_Login_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:28Z" name="setup" finished-at="2020-05-16T13:57:28Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:40Z" name="setup" finished-at="2020-05-16T14:21:40Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin03(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:28Z" name="setUpTCLogin03" finished-at="2020-05-16T13:57:29Z" duration-ms="1369" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin03(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:40Z" name="setUpTCLogin03" finished-at="2020-05-16T14:21:41Z" duration-ms="1357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -161,33 +206,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin03 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:29Z" name="checkHeader" finished-at="2020-05-16T13:57:29Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:41Z" name="checkHeader" finished-at="2020-05-16T14:21:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:29Z" name="checkResponseBody" finished-at="2020-05-16T13:57:29Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:41Z" name="checkResponseBody" finished-at="2020-05-16T14:21:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:29Z" name="checkResponseTime" finished-at="2020-05-16T13:57:29Z" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:41Z" name="checkResponseTime" finished-at="2020-05-16T14:21:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:29Z" name="checkStatusCode" finished-at="2020-05-16T13:57:29Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:41Z" name="checkStatusCode" finished-at="2020-05-16T14:21:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T13:57:29Z" name="checkStatusLine" finished-at="2020-05-16T13:57:29Z" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_03@12405818]" started-at="2020-05-16T14:21:41Z" name="checkStatusLine" finished-at="2020-05-16T14:21:41Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_03 -->
       <class name="G2.Project.Test.TS02.TC_Login_06">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:31Z" name="setup" finished-at="2020-05-16T13:57:31Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:44Z" name="setup" finished-at="2020-05-16T14:21:44Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin06(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:31Z" name="setUpTCLogin06" finished-at="2020-05-16T13:57:33Z" duration-ms="1349" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin06(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:44Z" name="setUpTCLogin06" finished-at="2020-05-16T14:21:45Z" duration-ms="1371" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,33 +248,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin06 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:33Z" name="checkHeader" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:45Z" name="checkHeader" finished-at="2020-05-16T14:21:45Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:33Z" name="checkResponseBody" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:45Z" name="checkResponseBody" finished-at="2020-05-16T14:21:45Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:33Z" name="checkResponseTime" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:45Z" name="checkResponseTime" finished-at="2020-05-16T14:21:45Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:33Z" name="checkStatusCode" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:45Z" name="checkStatusCode" finished-at="2020-05-16T14:21:45Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T13:57:33Z" name="checkStatusLine" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_06@6b67034]" started-at="2020-05-16T14:21:45Z" name="checkStatusLine" finished-at="2020-05-16T14:21:45Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_06 -->
       <class name="G2.Project.Test.TS02.TC_Login_05">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:30Z" name="setup" finished-at="2020-05-16T13:57:30Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:43Z" name="setup" finished-at="2020-05-16T14:21:43Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin05(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:30Z" name="setUpTCLogin05" finished-at="2020-05-16T13:57:31Z" duration-ms="1104" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin05(java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:43Z" name="setUpTCLogin05" finished-at="2020-05-16T14:21:44Z" duration-ms="1392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,33 +290,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin05 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:31Z" name="checkHeader" finished-at="2020-05-16T13:57:31Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:44Z" name="checkHeader" finished-at="2020-05-16T14:21:44Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:31Z" name="checkResponseBody" finished-at="2020-05-16T13:57:31Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:44Z" name="checkResponseBody" finished-at="2020-05-16T14:21:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:31Z" name="checkResponseTime" finished-at="2020-05-16T13:57:31Z" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:44Z" name="checkResponseTime" finished-at="2020-05-16T14:21:44Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:31Z" name="checkStatusCode" finished-at="2020-05-16T13:57:31Z" duration-ms="6" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:44Z" name="checkStatusCode" finished-at="2020-05-16T14:21:44Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T13:57:31Z" name="checkStatusLine" finished-at="2020-05-16T13:57:31Z" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_05@10b48321]" started-at="2020-05-16T14:21:44Z" name="checkStatusLine" finished-at="2020-05-16T14:21:44Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_05 -->
       <class name="G2.Project.Test.TS02.TC_Login_08">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:34Z" name="setup" finished-at="2020-05-16T13:57:34Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:46Z" name="setup" finished-at="2020-05-16T14:21:46Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin08(java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:34Z" name="setUpTCLogin08" finished-at="2020-05-16T13:57:35Z" duration-ms="1201" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin08(java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:46Z" name="setUpTCLogin08" finished-at="2020-05-16T14:21:48Z" duration-ms="1413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -282,33 +327,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin08 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:35Z" name="checkHeader" finished-at="2020-05-16T13:57:35Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:48Z" name="checkHeader" finished-at="2020-05-16T14:21:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:35Z" name="checkResponseBody" finished-at="2020-05-16T13:57:35Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:48Z" name="checkResponseBody" finished-at="2020-05-16T14:21:48Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:35Z" name="checkResponseTime" finished-at="2020-05-16T13:57:35Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:48Z" name="checkResponseTime" finished-at="2020-05-16T14:21:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:35Z" name="checkStatusCode" finished-at="2020-05-16T13:57:35Z" duration-ms="5" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:48Z" name="checkStatusCode" finished-at="2020-05-16T14:21:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T13:57:35Z" name="checkStatusLine" finished-at="2020-05-16T13:57:35Z" duration-ms="5" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_08@453da22c]" started-at="2020-05-16T14:21:48Z" name="checkStatusLine" finished-at="2020-05-16T14:21:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_08 -->
       <class name="G2.Project.Test.TS02.TC_Login_07">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:33Z" name="setup" finished-at="2020-05-16T13:57:33Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:45Z" name="setup" finished-at="2020-05-16T14:21:45Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin07(java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:33Z" name="setUpTCLogin07" finished-at="2020-05-16T13:57:34Z" duration-ms="1068" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin07(java.lang.String)[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:45Z" name="setUpTCLogin07" finished-at="2020-05-16T14:21:46Z" duration-ms="1065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,69 +364,613 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin07 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:34Z" name="checkHeader" finished-at="2020-05-16T13:57:34Z" duration-ms="3" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:46Z" name="checkHeader" finished-at="2020-05-16T14:21:46Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:34Z" name="checkResponseBody" finished-at="2020-05-16T13:57:34Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:46Z" name="checkResponseBody" finished-at="2020-05-16T14:21:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:34Z" name="checkResponseTime" finished-at="2020-05-16T13:57:34Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:46Z" name="checkResponseTime" finished-at="2020-05-16T14:21:46Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:34Z" name="checkStatusCode" finished-at="2020-05-16T13:57:34Z" duration-ms="11" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:46Z" name="checkStatusCode" finished-at="2020-05-16T14:21:46Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T13:57:34Z" name="checkStatusLine" finished-at="2020-05-16T13:57:34Z" duration-ms="8" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_07@16267862]" started-at="2020-05-16T14:21:46Z" name="checkStatusLine" finished-at="2020-05-16T14:21:46Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_07 -->
       <class name="G2.Project.Test.TS02.TC_Login_09">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:35Z" name="setup" finished-at="2020-05-16T13:57:35Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:48Z" name="setup" finished-at="2020-05-16T14:21:48Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCLogin09()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:35Z" name="setUpTCLogin09" finished-at="2020-05-16T13:57:36Z" duration-ms="1101" status="PASS">
+        <test-method is-config="true" signature="setUpTCLogin09()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:48Z" name="setUpTCLogin09" finished-at="2020-05-16T14:21:49Z" duration-ms="1209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTCLogin09 -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:36Z" name="checkHeader" finished-at="2020-05-16T13:57:36Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:49Z" name="checkHeader" finished-at="2020-05-16T14:21:49Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:36Z" name="checkResponseBody" finished-at="2020-05-16T13:57:36Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:49Z" name="checkResponseBody" finished-at="2020-05-16T14:21:49Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:36Z" name="checkResponseTime" finished-at="2020-05-16T13:57:36Z" duration-ms="5" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:49Z" name="checkResponseTime" finished-at="2020-05-16T14:21:49Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:36Z" name="checkStatusCode" finished-at="2020-05-16T13:57:36Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:49Z" name="checkStatusCode" finished-at="2020-05-16T14:21:49Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T13:57:36Z" name="checkStatusLine" finished-at="2020-05-16T13:57:36Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS02.TC_Login_09@71248c21]" started-at="2020-05-16T14:21:49Z" name="checkStatusLine" finished-at="2020-05-16T14:21:49Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS02.TC_Login_09 -->
     </test> <!-- LoginResponseTest -->
   </suite> <!-- Verify Login Functionality -->
-  <suite started-at="2020-05-16T13:57:53Z" name="Verify Top Up Functionality (1)" finished-at="2020-05-16T13:57:59Z" duration-ms="6005">
+  <suite started-at="2020-05-16T14:21:54Z" name="Verify GetBalanceCatalog Functionality" finished-at="2020-05-16T14:21:56Z" duration-ms="2256">
     <groups>
     </groups>
-    <test started-at="2020-05-16T13:57:53Z" name="TopupBalanceResponseTest" finished-at="2020-05-16T13:57:59Z" duration-ms="6005">
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:55Z" name="setup" finished-at="2020-05-16T13:57:55Z" duration-ms="1" status="PASS">
+    <test started-at="2020-05-16T14:21:54Z" name="GetBalanceCatalogResponseTest" finished-at="2020-05-16T14:21:56Z" duration-ms="2256">
+      <class name="G2.Project.Test.TS08.TC_GetBalanceCatalog_02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:55Z" name="setup" finished-at="2020-05-16T14:21:55Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:55Z" name="SettingUp" finished-at="2020-05-16T13:57:57Z" duration-ms="1262" status="PASS">
+        <test-method is-config="true" signature="setUpTCGetBalanceCatalog02(java.lang.String)[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:55Z" name="setUpTCGetBalanceCatalog02" finished-at="2020-05-16T14:21:56Z" duration-ms="1050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetBalanceCatalog02 -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:56Z" name="checkResponseBody" finished-at="2020-05-16T14:21:56Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:56Z" name="checkResponseTime" finished-at="2020-05-16T14:21:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:56Z" name="checkStatusCode" finished-at="2020-05-16T14:21:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T14:21:56Z" name="checkStatusLine" finished-at="2020-05-16T14:21:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS08.TC_GetBalanceCatalog_02 -->
+      <class name="G2.Project.Test.TS08.TC_GetBalanceCatalog_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:54Z" name="setup" finished-at="2020-05-16T14:21:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetBalanceCatalog01()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:54Z" name="setUpTCGetBalanceCatalog01" finished-at="2020-05-16T14:21:55Z" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetBalanceCatalog01 -->
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkDataBody" finished-at="2020-05-16T14:21:55Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataBody -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkHeader" finished-at="2020-05-16T14:21:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkResponseBody" finished-at="2020-05-16T14:21:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkResponseTime" finished-at="2020-05-16T14:21:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkStatusCode" finished-at="2020-05-16T14:21:55Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T14:21:55Z" name="checkStatusLine" finished-at="2020-05-16T14:21:55Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS08.TC_GetBalanceCatalog_01 -->
+    </test> <!-- GetBalanceCatalogResponseTest -->
+  </suite> <!-- Verify GetBalanceCatalog Functionality -->
+  <suite started-at="2020-05-16T14:22:11Z" name="Verify UploadTransferReceipt Functionality" finished-at="2020-05-16T14:22:21Z" duration-ms="10180">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:22:11Z" name="UploadReceiptResponseTest" finished-at="2020-05-16T14:22:21Z" duration-ms="10180">
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_06">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:16Z" name="setup" finished-at="2020-05-16T14:22:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:16Z" name="SettingUp" finished-at="2020-05-16T14:22:18Z" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:18Z" name="checkResponseBody" finished-at="2020-05-16T14:22:18Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:18Z" name="checkResponseTime" finished-at="2020-05-16T14:22:18Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:18Z" name="checkStatusCode" finished-at="2020-05-16T14:22:18Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T14:22:18Z" name="checkStatusLine" finished-at="2020-05-16T14:22:18Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_06 -->
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_05">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:15Z" name="setup" finished-at="2020-05-16T14:22:15Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:15Z" name="SettingUp" finished-at="2020-05-16T14:22:16Z" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:16Z" name="checkResponseBody" finished-at="2020-05-16T14:22:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:16Z" name="checkResponseTime" finished-at="2020-05-16T14:22:16Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:16Z" name="checkStatusCode" finished-at="2020-05-16T14:22:16Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T14:22:16Z" name="checkStatusLine" finished-at="2020-05-16T14:22:16Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_05 -->
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:12Z" name="setup" finished-at="2020-05-16T14:22:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:12Z" name="SettingUp" finished-at="2020-05-16T14:22:15Z" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:15Z" name="checkHeader" finished-at="2020-05-16T14:22:15Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:15Z" name="checkResponseBody" finished-at="2020-05-16T14:22:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:15Z" name="checkResponseTime" finished-at="2020-05-16T14:22:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:15Z" name="checkStatusCode" finished-at="2020-05-16T14:22:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T14:22:15Z" name="checkStatusLine" finished-at="2020-05-16T14:22:15Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_03 -->
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:19Z" name="setup" finished-at="2020-05-16T14:22:19Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:19Z" name="SettingUp" finished-at="2020-05-16T14:22:21Z" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:21Z" name="checkHeader" finished-at="2020-05-16T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:21Z" name="checkResponseBody" finished-at="2020-05-16T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:21Z" name="checkResponseTime" finished-at="2020-05-16T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:21Z" name="checkStatusCode" finished-at="2020-05-16T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T14:22:21Z" name="checkStatusLine" finished-at="2020-05-16T14:22:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_01 -->
+      <class name="G2.Project.Test.TS13.Setting">
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.Setting@2c34f934]" started-at="2020-05-16T14:22:11Z" name="SettingUp" finished-at="2020-05-16T14:22:12Z" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+      </class> <!-- G2.Project.Test.TS13.Setting -->
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_07">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:18Z" name="setup" finished-at="2020-05-16T14:22:18Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:18Z" name="SettingUp" finished-at="2020-05-16T14:22:19Z" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:19Z" name="checkResponseBody" finished-at="2020-05-16T14:22:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:19Z" name="checkResponseTime" finished-at="2020-05-16T14:22:19Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:19Z" name="checkStatusCode" finished-at="2020-05-16T14:22:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T14:22:19Z" name="checkStatusLine" finished-at="2020-05-16T14:22:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_07 -->
+    </test> <!-- UploadReceiptResponseTest -->
+  </suite> <!-- Verify UploadTransferReceipt Functionality -->
+  <suite started-at="2020-05-16T14:21:58Z" name="Verify ConfirmMerchantTopUp Functionality" finished-at="2020-05-16T14:22:03Z" duration-ms="4307">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:21:58Z" name="ConfirmMerchantTopupResponseTest" finished-at="2020-05-16T14:22:03Z" duration-ms="4307">
+      <class name="G2.Project.Test.TS10.Setting">
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.Setting@15bb6bea]" started-at="2020-05-16T14:21:58Z" name="SettingUp" finished-at="2020-05-16T14:21:59Z" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+      </class> <!-- G2.Project.Test.TS10.Setting -->
+      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:02Z" name="setup" finished-at="2020-05-16T14:22:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:02Z" name="SettingUp" finished-at="2020-05-16T14:22:03Z" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:03Z" name="checkHeader" finished-at="2020-05-16T14:22:03Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:03Z" name="checkResponseBody" finished-at="2020-05-16T14:22:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:03Z" name="checkResponseTime" finished-at="2020-05-16T14:22:03Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:03Z" name="checkStatusCode" finished-at="2020-05-16T14:22:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T14:22:03Z" name="checkStatusLine" finished-at="2020-05-16T14:22:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01 -->
+      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:21:59Z" name="setup" finished-at="2020-05-16T14:21:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:21:59Z" name="SettingUp" finished-at="2020-05-16T14:22:00Z" duration-ms="1010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:22:00Z" name="checkHeader" finished-at="2020-05-16T14:22:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:22:00Z" name="checkResponseBody" finished-at="2020-05-16T14:22:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:22:00Z" name="checkResponseTime" finished-at="2020-05-16T14:22:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:22:00Z" name="checkStatusCode" finished-at="2020-05-16T14:22:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T14:22:00Z" name="checkStatusLine" finished-at="2020-05-16T14:22:00Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02 -->
+      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:00Z" name="setup" finished-at="2020-05-16T14:22:00Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:00Z" name="SettingUp" finished-at="2020-05-16T14:22:02Z" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingUp -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:02Z" name="checkHeader" finished-at="2020-05-16T14:22:02Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:02Z" name="checkResponseBody" finished-at="2020-05-16T14:22:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:02Z" name="checkResponseTime" finished-at="2020-05-16T14:22:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:02Z" name="checkStatusCode" finished-at="2020-05-16T14:22:02Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T14:22:02Z" name="checkStatusLine" finished-at="2020-05-16T14:22:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03 -->
+    </test> <!-- ConfirmMerchantTopupResponseTest -->
+  </suite> <!-- Verify ConfirmMerchantTopUp Functionality -->
+  <suite started-at="2020-05-16T14:21:49Z" name="Verify GetUserProfile Functionality" finished-at="2020-05-16T14:21:51Z" duration-ms="2074">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:21:49Z" name="GetUserProfileResponseTest" finished-at="2020-05-16T14:21:51Z" duration-ms="2074">
+      <class name="G2.Project.Test.TS06.TC_GetUserProfile_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:49Z" name="setup" finished-at="2020-05-16T14:21:49Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetUserProfile01()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:49Z" name="setUpTCGetUserProfile01" finished-at="2020-05-16T14:21:50Z" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetUserProfile01 -->
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkDataBody" finished-at="2020-05-16T14:21:50Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataBody -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkHeader" finished-at="2020-05-16T14:21:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkResponseBody" finished-at="2020-05-16T14:21:50Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkResponseTime" finished-at="2020-05-16T14:21:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkStatusCode" finished-at="2020-05-16T14:21:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T14:21:50Z" name="checkStatusLine" finished-at="2020-05-16T14:21:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_01 -->
+      <class name="G2.Project.Test.TS06.TC_GetUserProfile_02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:50Z" name="setup" finished-at="2020-05-16T14:21:50Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetUserProfile02(java.lang.String)[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:50Z" name="setUpTCGetUserProfile02" finished-at="2020-05-16T14:21:51Z" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetUserProfile02 -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:51Z" name="checkResponseBody" finished-at="2020-05-16T14:21:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:51Z" name="checkResponseTime" finished-at="2020-05-16T14:21:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:51Z" name="checkStatusCode" finished-at="2020-05-16T14:21:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T14:21:51Z" name="checkStatusLine" finished-at="2020-05-16T14:21:51Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_02 -->
+    </test> <!-- GetUserProfileResponseTest -->
+  </suite> <!-- Verify GetUserProfile Functionality -->
+  <suite started-at="2020-05-16T14:21:52Z" name="Verify GetUserBalance Functionality" finished-at="2020-05-16T14:21:54Z" duration-ms="2302">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:21:52Z" name="GetUserBalanceResponseTest" finished-at="2020-05-16T14:21:54Z" duration-ms="2302">
+      <class name="G2.Project.Test.TS07.TC_GetUserBalance_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:52Z" name="setup" finished-at="2020-05-16T14:21:52Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetUserBalance01()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:52Z" name="setUpTCGetUserBalance01" finished-at="2020-05-16T14:21:53Z" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetUserBalance01 -->
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkDataBody" finished-at="2020-05-16T14:21:53Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataBody -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkHeader" finished-at="2020-05-16T14:21:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkResponseBody" finished-at="2020-05-16T14:21:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkResponseTime" finished-at="2020-05-16T14:21:53Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkStatusCode" finished-at="2020-05-16T14:21:53Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T14:21:53Z" name="checkStatusLine" finished-at="2020-05-16T14:21:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_01 -->
+      <class name="G2.Project.Test.TS07.TC_GetUserBalance_02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:53Z" name="setup" finished-at="2020-05-16T14:21:53Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetUserBalance02(java.lang.String)[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:53Z" name="setUpTCGetUserBalance02" finished-at="2020-05-16T14:21:54Z" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetUserBalance02 -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:54Z" name="checkResponseBody" finished-at="2020-05-16T14:21:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:54Z" name="checkResponseTime" finished-at="2020-05-16T14:21:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:54Z" name="checkStatusCode" finished-at="2020-05-16T14:21:54Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T14:21:54Z" name="checkStatusLine" finished-at="2020-05-16T14:21:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_02 -->
+    </test> <!-- GetUserBalanceResponseTest -->
+  </suite> <!-- Verify GetUserBalance Functionality -->
+  <suite started-at="2020-05-16T14:21:56Z" name="Verify GetPaymentMethod Functionality" finished-at="2020-05-16T14:21:58Z" duration-ms="2145">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:21:56Z" name="GetPaymentMethodResponseTest" finished-at="2020-05-16T14:21:58Z" duration-ms="2145">
+      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:56Z" name="setup" finished-at="2020-05-16T14:21:56Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetPaymentMethod01()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:56Z" name="setUpTCGetPaymentMethod01" finished-at="2020-05-16T14:21:57Z" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetPaymentMethod01 -->
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkDataBody" finished-at="2020-05-16T14:21:57Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDataBody -->
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkHeader" finished-at="2020-05-16T14:21:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeader -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkResponseBody" finished-at="2020-05-16T14:21:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkResponseTime" finished-at="2020-05-16T14:21:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkStatusCode" finished-at="2020-05-16T14:21:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T14:21:57Z" name="checkStatusLine" finished-at="2020-05-16T14:21:57Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_01 -->
+      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_02">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:57Z" name="setup" finished-at="2020-05-16T14:21:57Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpTCGetPaymentMethod02(java.lang.String)[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:57Z" name="setUpTCGetPaymentMethod02" finished-at="2020-05-16T14:21:58Z" duration-ms="1015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTCGetPaymentMethod02 -->
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:58Z" name="checkResponseBody" finished-at="2020-05-16T14:21:58Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:58Z" name="checkResponseTime" finished-at="2020-05-16T14:21:58Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:58Z" name="checkStatusCode" finished-at="2020-05-16T14:21:58Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T14:21:58Z" name="checkStatusLine" finished-at="2020-05-16T14:21:58Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_02 -->
+    </test> <!-- GetPaymentMethodResponseTest -->
+  </suite> <!-- Verify GetPaymentMethod Functionality -->
+  <suite started-at="2020-05-16T14:22:05Z" name="Verify TopUpBalance Functionality" finished-at="2020-05-16T14:22:11Z" duration-ms="5381">
+    <groups>
+    </groups>
+    <test started-at="2020-05-16T14:22:05Z" name="TopupBalanceResponseTest" finished-at="2020-05-16T14:22:11Z" duration-ms="5381">
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:08Z" name="setup" finished-at="2020-05-16T14:22:08Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:08Z" name="SettingUp" finished-at="2020-05-16T14:22:09Z" duration-ms="1061" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,33 +991,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:57Z" name="checkHeader" finished-at="2020-05-16T13:57:57Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:09Z" name="checkHeader" finished-at="2020-05-16T14:22:09Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:57Z" name="checkResponseBody" finished-at="2020-05-16T13:57:57Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:09Z" name="checkResponseBody" finished-at="2020-05-16T14:22:09Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:57Z" name="checkResponseTime" finished-at="2020-05-16T13:57:57Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:09Z" name="checkResponseTime" finished-at="2020-05-16T14:22:09Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:57Z" name="checkStatusCode" finished-at="2020-05-16T13:57:57Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:09Z" name="checkStatusCode" finished-at="2020-05-16T14:22:09Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T13:57:57Z" name="checkStatusLine" finished-at="2020-05-16T13:57:57Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_04@55a1c291]" started-at="2020-05-16T14:22:09Z" name="checkStatusLine" finished-at="2020-05-16T14:22:09Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_04 -->
       <class name="G2.Project.Test.TS12.TC_TopUpBalance_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:54Z" name="setup" finished-at="2020-05-16T13:57:54Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:06Z" name="setup" finished-at="2020-05-16T14:22:06Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:54Z" name="SettingUp" finished-at="2020-05-16T13:57:55Z" duration-ms="1348" status="PASS">
+        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:06Z" name="SettingUp" finished-at="2020-05-16T14:22:08Z" duration-ms="1102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,33 +1038,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:55Z" name="checkHeader" finished-at="2020-05-16T13:57:55Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:08Z" name="checkHeader" finished-at="2020-05-16T14:22:08Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:55Z" name="checkResponseBody" finished-at="2020-05-16T13:57:55Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:08Z" name="checkResponseBody" finished-at="2020-05-16T14:22:08Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:55Z" name="checkResponseTime" finished-at="2020-05-16T13:57:55Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:08Z" name="checkResponseTime" finished-at="2020-05-16T14:22:08Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:55Z" name="checkStatusCode" finished-at="2020-05-16T13:57:55Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:08Z" name="checkStatusCode" finished-at="2020-05-16T14:22:08Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T13:57:55Z" name="checkStatusLine" finished-at="2020-05-16T13:57:55Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_03@341b80b2]" started-at="2020-05-16T14:22:08Z" name="checkStatusLine" finished-at="2020-05-16T14:22:08Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_03 -->
       <class name="G2.Project.Test.TS12.TC_TopUpBalance_05">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:57Z" name="setup" finished-at="2020-05-16T13:57:57Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:09Z" name="setup" finished-at="2020-05-16T14:22:09Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:57Z" name="SettingUp" finished-at="2020-05-16T13:57:58Z" duration-ms="1273" status="PASS">
+        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:09Z" name="SettingUp" finished-at="2020-05-16T14:22:10Z" duration-ms="1067" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -496,33 +1085,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:58Z" name="checkHeader" finished-at="2020-05-16T13:57:58Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:10Z" name="checkHeader" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:58Z" name="checkResponseBody" finished-at="2020-05-16T13:57:58Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:10Z" name="checkResponseBody" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:58Z" name="checkResponseTime" finished-at="2020-05-16T13:57:58Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:10Z" name="checkResponseTime" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:58Z" name="checkStatusCode" finished-at="2020-05-16T13:57:58Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:10Z" name="checkStatusCode" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T13:57:58Z" name="checkStatusLine" finished-at="2020-05-16T13:57:58Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_05@2145433b]" started-at="2020-05-16T14:22:10Z" name="checkStatusLine" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_05 -->
       <class name="G2.Project.Test.TS12.TC_TopUpBalance_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:53Z" name="setup" finished-at="2020-05-16T13:57:53Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:05Z" name="setup" finished-at="2020-05-16T14:22:05Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:53Z" name="SettingUp" finished-at="2020-05-16T13:57:54Z" duration-ms="918" status="PASS">
+        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:05Z" name="SettingUp" finished-at="2020-05-16T14:22:06Z" duration-ms="1015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -543,33 +1132,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:54Z" name="checkHeader" finished-at="2020-05-16T13:57:54Z" duration-ms="2" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:06Z" name="checkHeader" finished-at="2020-05-16T14:22:06Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:54Z" name="checkResponseBody" finished-at="2020-05-16T13:57:54Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:06Z" name="checkResponseBody" finished-at="2020-05-16T14:22:06Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:54Z" name="checkResponseTime" finished-at="2020-05-16T13:57:54Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:06Z" name="checkResponseTime" finished-at="2020-05-16T14:22:06Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:54Z" name="checkStatusCode" finished-at="2020-05-16T13:57:54Z" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:06Z" name="checkStatusCode" finished-at="2020-05-16T14:22:06Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T13:57:54Z" name="checkStatusLine" finished-at="2020-05-16T13:57:54Z" duration-ms="3" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_02@8e0379d]" started-at="2020-05-16T14:22:06Z" name="checkStatusLine" finished-at="2020-05-16T14:22:06Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_02 -->
       <class name="G2.Project.Test.TS12.TC_TopUpBalance_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:58Z" name="setup" finished-at="2020-05-16T13:57:58Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:10Z" name="setup" finished-at="2020-05-16T14:22:10Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:58Z" name="SettingUp" finished-at="2020-05-16T13:57:59Z" duration-ms="1124" status="PASS">
+        <test-method is-config="true" signature="SettingUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:10Z" name="SettingUp" finished-at="2020-05-16T14:22:11Z" duration-ms="1059" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -590,150 +1179,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SettingUp -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkDataBody" finished-at="2020-05-16T13:57:59Z" duration-ms="10" status="PASS">
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkDataBody" finished-at="2020-05-16T14:22:11Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkHeader" finished-at="2020-05-16T13:57:59Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkHeader" finished-at="2020-05-16T14:22:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkResponseBody" finished-at="2020-05-16T13:57:59Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkResponseBody" finished-at="2020-05-16T14:22:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkResponseTime" finished-at="2020-05-16T13:57:59Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkResponseTime" finished-at="2020-05-16T14:22:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkStatusCode" finished-at="2020-05-16T13:57:59Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkStatusCode" finished-at="2020-05-16T14:22:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T13:57:59Z" name="checkStatusLine" finished-at="2020-05-16T13:57:59Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS12.TC_TopUpBalance_01@2890c451]" started-at="2020-05-16T14:22:11Z" name="checkStatusLine" finished-at="2020-05-16T14:22:11Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_01 -->
     </test> <!-- TopupBalanceResponseTest -->
-  </suite> <!-- Verify Top Up Functionality (1) -->
-  <suite started-at="2020-05-16T13:57:41Z" name="Verify GetBalanceCatalog Functionality" finished-at="2020-05-16T13:57:44Z" duration-ms="2310">
+  </suite> <!-- Verify TopUpBalance Functionality -->
+  <suite started-at="2020-05-16T14:22:03Z" name="Verify GetTopUpHistory Functionality" finished-at="2020-05-16T14:22:05Z" duration-ms="2609">
     <groups>
     </groups>
-    <test started-at="2020-05-16T13:57:41Z" name="GetBalanceCatalogResponseTest" finished-at="2020-05-16T13:57:44Z" duration-ms="2310">
-      <class name="G2.Project.Test.TS08.TC_GetBalanceCatalog_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:43Z" name="setup" finished-at="2020-05-16T13:57:43Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetBalanceCatalog02(java.lang.String)[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:43Z" name="setUpTCGetBalanceCatalog02" finished-at="2020-05-16T13:57:44Z" duration-ms="886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetBalanceCatalog02 -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:44Z" name="checkResponseBody" finished-at="2020-05-16T13:57:44Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:44Z" name="checkResponseTime" finished-at="2020-05-16T13:57:44Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:44Z" name="checkStatusCode" finished-at="2020-05-16T13:57:44Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_02@971d0d8]" started-at="2020-05-16T13:57:44Z" name="checkStatusLine" finished-at="2020-05-16T13:57:44Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS08.TC_GetBalanceCatalog_02 -->
-      <class name="G2.Project.Test.TS08.TC_GetBalanceCatalog_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:41Z" name="setup" finished-at="2020-05-16T13:57:41Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetBalanceCatalog01()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:41Z" name="setUpTCGetBalanceCatalog01" finished-at="2020-05-16T13:57:43Z" duration-ms="1381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetBalanceCatalog01 -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkDataBody" finished-at="2020-05-16T13:57:43Z" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkHeader" finished-at="2020-05-16T13:57:43Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkResponseBody" finished-at="2020-05-16T13:57:43Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkResponseTime" finished-at="2020-05-16T13:57:43Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkStatusCode" finished-at="2020-05-16T13:57:43Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS08.TC_GetBalanceCatalog_01@176d53b2]" started-at="2020-05-16T13:57:43Z" name="checkStatusLine" finished-at="2020-05-16T13:57:43Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS08.TC_GetBalanceCatalog_01 -->
-    </test> <!-- GetBalanceCatalogResponseTest -->
-  </suite> <!-- Verify GetBalanceCatalog Functionality -->
-  <suite started-at="2020-05-16T13:57:51Z" name="Verify Top Up Functionality (0)" finished-at="2020-05-16T13:57:53Z" duration-ms="2413">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:51Z" name="GetTopupHistoryResponseTest" finished-at="2020-05-16T13:57:53Z" duration-ms="2413">
+    <test started-at="2020-05-16T14:22:03Z" name="GetTopupHistoryResponseTest" finished-at="2020-05-16T14:22:05Z" duration-ms="2609">
       <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:52Z" name="setup" finished-at="2020-05-16T13:57:52Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:04Z" name="setup" finished-at="2020-05-16T14:22:04Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="settingUp()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:52Z" name="settingUp" finished-at="2020-05-16T13:57:53Z" duration-ms="1381" status="PASS">
+        <test-method is-config="true" signature="settingUp()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:04Z" name="settingUp" finished-at="2020-05-16T14:22:05Z" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingUp -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkDataBody" finished-at="2020-05-16T13:57:53Z" duration-ms="46" status="PASS">
+        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkDataBody" finished-at="2020-05-16T14:22:05Z" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkHeader" finished-at="2020-05-16T13:57:53Z" duration-ms="1" status="PASS">
+        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkHeader" finished-at="2020-05-16T14:22:05Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkResponseBody" finished-at="2020-05-16T13:57:53Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkResponseBody" finished-at="2020-05-16T14:22:05Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkResponseTime" finished-at="2020-05-16T13:57:53Z" duration-ms="1" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkResponseTime" finished-at="2020-05-16T14:22:05Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkStatusCode" finished-at="2020-05-16T13:57:53Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkStatusCode" finished-at="2020-05-16T14:22:05Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T13:57:53Z" name="checkStatusLine" finished-at="2020-05-16T13:57:53Z" duration-ms="1" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_01@275710fc]" started-at="2020-05-16T14:22:05Z" name="checkStatusLine" finished-at="2020-05-16T14:22:05Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_01 -->
       <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:51Z" name="setup" finished-at="2020-05-16T13:57:51Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:03Z" name="setup" finished-at="2020-05-16T14:22:03Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="settingUp(java.lang.String)[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:51Z" name="settingUp" finished-at="2020-05-16T13:57:52Z" duration-ms="967" status="PASS">
+        <test-method is-config="true" signature="settingUp(java.lang.String)[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:03Z" name="settingUp" finished-at="2020-05-16T14:22:04Z" duration-ms="996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -744,494 +1260,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- settingUp -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:52Z" name="checkResponseBody" finished-at="2020-05-16T13:57:52Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:04Z" name="checkResponseBody" finished-at="2020-05-16T14:22:04Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:52Z" name="checkResponseTime" finished-at="2020-05-16T13:57:52Z" duration-ms="2" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:04Z" name="checkResponseTime" finished-at="2020-05-16T14:22:04Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:52Z" name="checkStatusCode" finished-at="2020-05-16T13:57:52Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:04Z" name="checkStatusCode" finished-at="2020-05-16T14:22:04Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T13:57:52Z" name="checkStatusLine" finished-at="2020-05-16T13:57:52Z" duration-ms="2" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS11.TC_GetTopUpHistory_02@400cff1a]" started-at="2020-05-16T14:22:04Z" name="checkStatusLine" finished-at="2020-05-16T14:22:04Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
       </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_02 -->
     </test> <!-- GetTopupHistoryResponseTest -->
-  </suite> <!-- Verify Top Up Functionality (0) -->
-  <suite started-at="2020-05-16T13:57:59Z" name="Verify Top Up Functionality (2)" finished-at="2020-05-16T13:58:10Z" duration-ms="10818">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:59Z" name="UploadReceiptResponseTest" finished-at="2020-05-16T13:58:10Z" duration-ms="10818">
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_06">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:05Z" name="setup" finished-at="2020-05-16T13:58:05Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:05Z" name="SettingUp" finished-at="2020-05-16T13:58:07Z" duration-ms="1750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:07Z" name="checkResponseBody" finished-at="2020-05-16T13:58:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:07Z" name="checkResponseTime" finished-at="2020-05-16T13:58:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:07Z" name="checkStatusCode" finished-at="2020-05-16T13:58:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_06@25a65b77]" started-at="2020-05-16T13:58:07Z" name="checkStatusLine" finished-at="2020-05-16T13:58:07Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_06 -->
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_05">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:04Z" name="setup" finished-at="2020-05-16T13:58:04Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:04Z" name="SettingUp" finished-at="2020-05-16T13:58:05Z" duration-ms="1094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:05Z" name="checkResponseBody" finished-at="2020-05-16T13:58:05Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:05Z" name="checkResponseTime" finished-at="2020-05-16T13:58:05Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:05Z" name="checkStatusCode" finished-at="2020-05-16T13:58:05Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_05@240237d2]" started-at="2020-05-16T13:58:05Z" name="checkStatusLine" finished-at="2020-05-16T13:58:05Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_05 -->
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:00Z" name="setup" finished-at="2020-05-16T13:58:00Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:00Z" name="SettingUp" finished-at="2020-05-16T13:58:04Z" duration-ms="4260" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:04Z" name="checkHeader" finished-at="2020-05-16T13:58:04Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:04Z" name="checkResponseBody" finished-at="2020-05-16T13:58:04Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:04Z" name="checkResponseTime" finished-at="2020-05-16T13:58:04Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:04Z" name="checkStatusCode" finished-at="2020-05-16T13:58:04Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_03@12d3a4e9]" started-at="2020-05-16T13:58:04Z" name="checkStatusLine" finished-at="2020-05-16T13:58:04Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_03 -->
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:08Z" name="setup" finished-at="2020-05-16T13:58:08Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:08Z" name="SettingUp" finished-at="2020-05-16T13:58:10Z" duration-ms="1709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:10Z" name="checkHeader" finished-at="2020-05-16T13:58:10Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:10Z" name="checkResponseBody" finished-at="2020-05-16T13:58:10Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:10Z" name="checkResponseTime" finished-at="2020-05-16T13:58:10Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:10Z" name="checkStatusCode" finished-at="2020-05-16T13:58:10Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_01@212bf671]" started-at="2020-05-16T13:58:10Z" name="checkStatusLine" finished-at="2020-05-16T13:58:10Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_01 -->
-      <class name="G2.Project.Test.TS13.Setting">
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.Setting@2c34f934]" started-at="2020-05-16T13:57:59Z" name="SettingUp" finished-at="2020-05-16T13:58:00Z" duration-ms="890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-      </class> <!-- G2.Project.Test.TS13.Setting -->
-      <class name="G2.Project.Test.TS13.TC_TransferReceipt_07">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:07Z" name="setup" finished-at="2020-05-16T13:58:07Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:07Z" name="SettingUp" finished-at="2020-05-16T13:58:08Z" duration-ms="1049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:08Z" name="checkResponseBody" finished-at="2020-05-16T13:58:08Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:08Z" name="checkResponseTime" finished-at="2020-05-16T13:58:08Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:08Z" name="checkStatusCode" finished-at="2020-05-16T13:58:08Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS13.TC_TransferReceipt_07@2ed0fbae]" started-at="2020-05-16T13:58:08Z" name="checkStatusLine" finished-at="2020-05-16T13:58:08Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_07 -->
-    </test> <!-- UploadReceiptResponseTest -->
-  </suite> <!-- Verify Top Up Functionality (2) -->
-  <suite started-at="2020-05-16T13:57:37Z" name="Verify GetUserProfile Functionality" finished-at="2020-05-16T13:57:39Z" duration-ms="2273">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:37Z" name="GetUserProfileResponseTest" finished-at="2020-05-16T13:57:39Z" duration-ms="2273">
-      <class name="G2.Project.Test.TS06.TC_GetUserProfile_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:37Z" name="setup" finished-at="2020-05-16T13:57:37Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetUserProfile01()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:37Z" name="setUpTCGetUserProfile01" finished-at="2020-05-16T13:57:38Z" duration-ms="1231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetUserProfile01 -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkDataBody" finished-at="2020-05-16T13:57:38Z" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkHeader" finished-at="2020-05-16T13:57:38Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkResponseBody" finished-at="2020-05-16T13:57:38Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkResponseTime" finished-at="2020-05-16T13:57:38Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkStatusCode" finished-at="2020-05-16T13:57:38Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_01@3f200884]" started-at="2020-05-16T13:57:38Z" name="checkStatusLine" finished-at="2020-05-16T13:57:38Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_01 -->
-      <class name="G2.Project.Test.TS06.TC_GetUserProfile_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:38Z" name="setup" finished-at="2020-05-16T13:57:38Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetUserProfile02(java.lang.String)[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:38Z" name="setUpTCGetUserProfile02" finished-at="2020-05-16T13:57:39Z" duration-ms="995" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetUserProfile02 -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:39Z" name="checkResponseBody" finished-at="2020-05-16T13:57:39Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:39Z" name="checkResponseTime" finished-at="2020-05-16T13:57:39Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:39Z" name="checkStatusCode" finished-at="2020-05-16T13:57:39Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS06.TC_GetUserProfile_02@4d339552]" started-at="2020-05-16T13:57:39Z" name="checkStatusLine" finished-at="2020-05-16T13:57:39Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_02 -->
-    </test> <!-- GetUserProfileResponseTest -->
-  </suite> <!-- Verify GetUserProfile Functionality -->
-  <suite started-at="2020-05-16T13:57:39Z" name="Verify GetUserBalance Functionality" finished-at="2020-05-16T13:57:41Z" duration-ms="2084">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:39Z" name="GetUserBalanceResponseTest" finished-at="2020-05-16T13:57:41Z" duration-ms="2084">
-      <class name="G2.Project.Test.TS07.TC_GetUserBalance_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:39Z" name="setup" finished-at="2020-05-16T13:57:39Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetUserBalance01()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:39Z" name="setUpTCGetUserBalance01" finished-at="2020-05-16T13:57:40Z" duration-ms="1148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetUserBalance01 -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkDataBody" finished-at="2020-05-16T13:57:40Z" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkHeader" finished-at="2020-05-16T13:57:40Z" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkResponseBody" finished-at="2020-05-16T13:57:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkResponseTime" finished-at="2020-05-16T13:57:40Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkStatusCode" finished-at="2020-05-16T13:57:40Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_01@351d0846]" started-at="2020-05-16T13:57:40Z" name="checkStatusLine" finished-at="2020-05-16T13:57:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_01 -->
-      <class name="G2.Project.Test.TS07.TC_GetUserBalance_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:40Z" name="setup" finished-at="2020-05-16T13:57:40Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetUserBalance02(java.lang.String)[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:40Z" name="setUpTCGetUserBalance02" finished-at="2020-05-16T13:57:41Z" duration-ms="899" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetUserBalance02 -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:41Z" name="checkResponseBody" finished-at="2020-05-16T13:57:41Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:41Z" name="checkResponseTime" finished-at="2020-05-16T13:57:41Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:41Z" name="checkStatusCode" finished-at="2020-05-16T13:57:41Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS07.TC_GetUserBalance_02@77e4c80f]" started-at="2020-05-16T13:57:41Z" name="checkStatusLine" finished-at="2020-05-16T13:57:41Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_02 -->
-    </test> <!-- GetUserBalanceResponseTest -->
-  </suite> <!-- Verify GetUserBalance Functionality -->
-  <suite started-at="2020-05-16T13:57:44Z" name="Verify GetPaymentMethod Functionality" finished-at="2020-05-16T13:57:46Z" duration-ms="2232">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:44Z" name="GetPaymentMethodResponseTest" finished-at="2020-05-16T13:57:46Z" duration-ms="2232">
-      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:44Z" name="setup" finished-at="2020-05-16T13:57:44Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetPaymentMethod01()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:44Z" name="setUpTCGetPaymentMethod01" finished-at="2020-05-16T13:57:45Z" duration-ms="1177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetPaymentMethod01 -->
-        <test-method signature="checkDataBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkDataBody" finished-at="2020-05-16T13:57:45Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkDataBody -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkHeader" finished-at="2020-05-16T13:57:45Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkResponseBody" finished-at="2020-05-16T13:57:45Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkResponseTime" finished-at="2020-05-16T13:57:45Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkStatusCode" finished-at="2020-05-16T13:57:45Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_01@57175e74]" started-at="2020-05-16T13:57:45Z" name="checkStatusLine" finished-at="2020-05-16T13:57:45Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_01 -->
-      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:45Z" name="setup" finished-at="2020-05-16T13:57:45Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUpTCGetPaymentMethod02(java.lang.String)[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:45Z" name="setUpTCGetPaymentMethod02" finished-at="2020-05-16T13:57:46Z" duration-ms="1017" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTCGetPaymentMethod02 -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:46Z" name="checkResponseBody" finished-at="2020-05-16T13:57:46Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:46Z" name="checkResponseTime" finished-at="2020-05-16T13:57:46Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:46Z" name="checkStatusCode" finished-at="2020-05-16T13:57:46Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS09.TC_GetPaymentMethod_02@7bb58ca3]" started-at="2020-05-16T13:57:46Z" name="checkStatusLine" finished-at="2020-05-16T13:57:46Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_02 -->
-    </test> <!-- GetPaymentMethodResponseTest -->
-  </suite> <!-- Verify GetPaymentMethod Functionality -->
-  <suite started-at="2020-05-16T13:57:46Z" name="Verify Top Up Functionality" finished-at="2020-05-16T13:57:51Z" duration-ms="4735">
-    <groups>
-    </groups>
-    <test started-at="2020-05-16T13:57:46Z" name="ConfirmMerchantTopupResponseTest" finished-at="2020-05-16T13:57:51Z" duration-ms="4735">
-      <class name="G2.Project.Test.TS10.Setting">
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.Setting@15bb6bea]" started-at="2020-05-16T13:57:46Z" name="SettingUp" finished-at="2020-05-16T13:57:47Z" duration-ms="1192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-      </class> <!-- G2.Project.Test.TS10.Setting -->
-      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:49Z" name="setup" finished-at="2020-05-16T13:57:49Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:49Z" name="SettingUp" finished-at="2020-05-16T13:57:51Z" duration-ms="1209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:51Z" name="checkHeader" finished-at="2020-05-16T13:57:51Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:51Z" name="checkResponseBody" finished-at="2020-05-16T13:57:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:51Z" name="checkResponseTime" finished-at="2020-05-16T13:57:51Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:51Z" name="checkStatusCode" finished-at="2020-05-16T13:57:51Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01@4c40b76e]" started-at="2020-05-16T13:57:51Z" name="checkStatusLine" finished-at="2020-05-16T13:57:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01 -->
-      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:47Z" name="setup" finished-at="2020-05-16T13:57:47Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:47Z" name="SettingUp" finished-at="2020-05-16T13:57:48Z" duration-ms="1226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:48Z" name="checkHeader" finished-at="2020-05-16T13:57:48Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:48Z" name="checkResponseBody" finished-at="2020-05-16T13:57:48Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:48Z" name="checkResponseTime" finished-at="2020-05-16T13:57:48Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:48Z" name="checkStatusCode" finished-at="2020-05-16T13:57:48Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02@8b96fde]" started-at="2020-05-16T13:57:48Z" name="checkStatusLine" finished-at="2020-05-16T13:57:48Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02 -->
-      <class name="G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03">
-        <test-method is-config="true" signature="setup()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:48Z" name="setup" finished-at="2020-05-16T13:57:48Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SettingUp()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:48Z" name="SettingUp" finished-at="2020-05-16T13:57:49Z" duration-ms="1070" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingUp -->
-        <test-method signature="checkHeader()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:49Z" name="checkHeader" finished-at="2020-05-16T13:57:49Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkHeader -->
-        <test-method signature="checkResponseBody()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:49Z" name="checkResponseBody" finished-at="2020-05-16T13:57:49Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkResponseTime()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:49Z" name="checkResponseTime" finished-at="2020-05-16T13:57:49Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseTime -->
-        <test-method signature="checkStatusCode()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:49Z" name="checkStatusCode" finished-at="2020-05-16T13:57:49Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03@2d2e5f00]" started-at="2020-05-16T13:57:49Z" name="checkStatusLine" finished-at="2020-05-16T13:57:49Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-      </class> <!-- G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03 -->
-    </test> <!-- ConfirmMerchantTopupResponseTest -->
-  </suite> <!-- Verify Top Up Functionality -->
+  </suite> <!-- Verify GetTopUpHistory Functionality -->
 </testng-results>

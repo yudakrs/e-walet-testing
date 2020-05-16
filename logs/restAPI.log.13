@@ -1,326 +1,326 @@
-May 16, 2020 8:57:41 PM G2.Project.Test.TS08.TC_GetBalanceCatalog_01 setUpTCGetBalanceCatalog01
+May 16, 2020 9:21:54 PM G2.Project.Test.TS08.TC_GetBalanceCatalog_01 setUpTCGetBalanceCatalog01
 INFO: ***** G2.Project.Test.TS08.TC_GetBalanceCatalog_01 *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkData
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkData
 INFO: ***** Check Data Field *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkData
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkData
 INFO: Data = [{code=e-10, balance=10000, id=1}, {code=e-20, balance=20000, id=2}, {code=e-50, balance=50000, id=3}, {code=e-100, balance=100000, id=4}, {code=e-200, balance=200000, id=5}, {code=e-500, balance=500000, id=6}]
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1378
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1156
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 200
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:43 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:55 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 200 
-May 16, 2020 8:57:43 PM G2.Project.Test.TS08.TC_GetBalanceCatalog_02 setUpTCGetBalanceCatalog02
+May 16, 2020 9:21:55 PM G2.Project.Test.TS08.TC_GetBalanceCatalog_02 setUpTCGetBalanceCatalog02
 INFO: ***** G2.Project.Test.TS08.TC_GetBalanceCatalog_02 *****
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 882
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1045
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 401
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:44 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:56 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 401 
-May 16, 2020 8:57:44 PM G2.Project.Test.TS09.TC_GetPaymentMethod_01 setUpTCGetPaymentMethod01
+May 16, 2020 9:21:56 PM G2.Project.Test.TS09.TC_GetPaymentMethod_01 setUpTCGetPaymentMethod01
 INFO: ***** G2.Project.Test.TS09.TC_GetPaymentMethod_01 *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkData
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkData
 INFO: ***** Check Data Field *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkData
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkData
 INFO: Data = [{payment_type=1, name=BCA, id=1}, {payment_type=2, name=Indomaret, id=2}]
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1171
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1091
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 200
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:45 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:57 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 200 
-May 16, 2020 8:57:45 PM G2.Project.Test.TS09.TC_GetPaymentMethod_02 setUpTCGetPaymentMethod02
+May 16, 2020 9:21:57 PM G2.Project.Test.TS09.TC_GetPaymentMethod_02 setUpTCGetPaymentMethod02
 INFO: ***** G2.Project.Test.TS09.TC_GetPaymentMethod_02 *****
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkResponseTime
 INFO: Response Time = 1012
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 401
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:46 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:21:58 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 401 
-May 16, 2020 8:57:47 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02 SettingUp
+May 16, 2020 9:21:59 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02 SettingUp
 INFO: ***** G2.Project.Test.TS10.TC_ConfirmMerchantTopup_02 ******
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1222
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1007
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 406
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:48 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:00 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 406 
-May 16, 2020 8:57:48 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03 SettingUp
+May 16, 2020 9:22:00 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03 SettingUp
 INFO: ***** G2.Project.Test.TS10.TC_ConfirmMerchantTopup_03 ******
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1067
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1127
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 406
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:57:49 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:02 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 406 
-May 16, 2020 8:57:49 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01 SettingUp
+May 16, 2020 9:22:02 PM G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01 SettingUp
 INFO: ***** G2.Project.Test.TS10.TC_ConfirmMerchantTopup_01 ******
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1204
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 200
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:51 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 200 
-May 16, 2020 8:57:51 PM G2.Project.Test.TS11.TC_GetTopUpHistory_02 settingUp
-INFO: ***** G2.Project.Test.TS11.TC_GetTopUpHistory_02 *****
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 963
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 401
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:52 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 401 
-May 16, 2020 8:57:52 PM G2.Project.Test.TS11.TC_GetTopUpHistory_01 settingUp
-INFO: ***** G2.Project.Test.TS11.TC_GetTopUpHistory_01 *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkData
-INFO: ***** Check Data Field *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkData
-INFO: Data = [{topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=77, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=78, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=86, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=89, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=91, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=102, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=115, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=126, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=138, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=146, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=155, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=189, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=222, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=238, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=240, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=246, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=267, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=278, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=279, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=280, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=286, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=304, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=330, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=372, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=373, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=378, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=381, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=383, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=384, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=385, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=396, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=397, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=398, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=399, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=400, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=401, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=402, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=405, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=406, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=407, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=410, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=411, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=412, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=413, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=414, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=415, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=416, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/ee88103d-db5a-4af2-bb6c-f6bca1a6dade.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:52:02, id=471, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=2, user_id=52, name=Indomaret, created_at=2020-05-16 20:51:50, id=470, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=2, user_id=52, name=Indomaret, created_at=2020-05-16 20:57:49, id=474, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:52:02, id=472, token=80006281905218958, status=2}]
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1328
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 200
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:53 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 200 
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 915
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 404
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:54 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 404 
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1346
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 404
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:55 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 404 
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1261
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 404
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:57 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 404 
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1269
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 404
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:58 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 404 
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkData
-INFO: ***** Check Data Field *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkData
-INFO: Data = {topup_balance=20000, payment_type=1, name=BCA, invoice_id=475, created_at=2020-05-16 20:58:01, token=80006281905218958, status=0}
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1122
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 200
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:57:59 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 200 
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 4244
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 406
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:58:04 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 406 
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1090
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 400
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 400 
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1747
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 406
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 406 
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkResponseTime
 INFO: Response Time = 1048
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusCode
-INFO: Status Code = 400
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusLine
-INFO: ***** Check Status Line *****
-May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusLine
-INFO: Status Line = HTTP/1.1 400 
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkContentType
-INFO: ***** Check Content Type *****
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkBody
-INFO: ***** Check Body Data *****
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkResponseTime
-INFO: ***** Check Response Time *****
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1707
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusCode
-INFO: ***** Check Status Code *****
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 200
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 9:22:03 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 200 
+May 16, 2020 9:22:03 PM G2.Project.Test.TS11.TC_GetTopUpHistory_02 settingUp
+INFO: ***** G2.Project.Test.TS11.TC_GetTopUpHistory_02 *****
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 994
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 401
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:04 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 401 
+May 16, 2020 9:22:04 PM G2.Project.Test.TS11.TC_GetTopUpHistory_01 settingUp
+INFO: ***** G2.Project.Test.TS11.TC_GetTopUpHistory_01 *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkData
+INFO: ***** Check Data Field *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkData
+INFO: Data = [{topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=77, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=78, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=86, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=89, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=91, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=102, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=115, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=126, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=138, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=146, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=155, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=189, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=222, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=238, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=240, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=246, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=267, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=278, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=279, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=280, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=286, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=304, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=330, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=372, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=373, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=378, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=381, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=383, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=384, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=385, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=396, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=397, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=398, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=399, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=400, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=401, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=402, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=405, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=406, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=407, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=410, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=411, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=412, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=413, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=414, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=415, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/bc291e7c-bf8f-4dde-9149-5c1ceade86dc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 17:27:24, id=416, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/ee88103d-db5a-4af2-bb6c-f6bca1a6dade.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:52:02, id=471, token=80006281905218958, status=1}, {topup_balance=20000, path=http://ff4f6802.ngrok.io/downloadFile/b092eca9-cbac-4312-a884-2b75ee6d0cfc.jpg, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:58:02, id=476, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=2, user_id=52, name=Indomaret, created_at=2020-05-16 20:51:50, id=470, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=2, user_id=52, name=Indomaret, created_at=2020-05-16 20:57:49, id=474, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=2, user_id=52, name=Indomaret, created_at=2020-05-16 21:22:01, id=477, token=80006281905218958, status=1}, {topup_balance=20000, path=null, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:52:02, id=472, token=80006281905218958, status=2}, {topup_balance=20000, path=null, payment_type=1, user_id=52, name=BCA, created_at=2020-05-16 20:58:01, id=475, token=80006281905218958, status=2}]
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1531
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 200
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:05 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 200 
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1013
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 404
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:06 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 404 
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1100
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 404
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:08 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 404 
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1059
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 404
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:09 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 404 
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1065
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 404
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:10 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 404 
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkData
+INFO: ***** Check Data Field *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkData
+INFO: Data = {topup_balance=20000, payment_type=1, name=BCA, invoice_id=478, created_at=2020-05-16 21:22:13, token=80006281905218958, status=0}
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1058
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 200
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:11 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 200 
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 3600
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 406
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:15 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 406 
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1144
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 400
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:16 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 400 
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1874
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 406
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:18 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 406 
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1076
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 400
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:19 PM G2.Project.Base.TestBase checkStatusLine
+INFO: Status Line = HTTP/1.1 400 
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkContentType
+INFO: ***** Check Content Type *****
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkBody
+INFO: ***** Check Body Data *****
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkResponseTime
+INFO: ***** Check Response Time *****
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1553
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkStatusCode
+INFO: ***** Check Status Code *****
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkStatusCode
+INFO: Status Code = 200
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkStatusLine
+INFO: ***** Check Status Line *****
+May 16, 2020 9:22:21 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 200 
