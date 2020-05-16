@@ -6,13 +6,10 @@
     <test name="UploadReceiptResponseTest" thread-count="3">
         <classes>
             <class name="G2.Project.Test.TS13.Setting"/>
-            <class name="G2.Project.Test.TS13.TC_TransferReceipt_02"/>
             <class name="G2.Project.Test.TS13.TC_TransferReceipt_03"/>
-            <class name="G2.Project.Test.TS13.TC_TransferReceipt_04"/>
             <class name="G2.Project.Test.TS13.TC_TransferReceipt_05"/>
             <class name="G2.Project.Test.TS13.TC_TransferReceipt_06"/>
             <class name="G2.Project.Test.TS13.TC_TransferReceipt_07"/>
-            <class name="G2.Project.Test.TS13.TC_TransferReceipt_08"/>
             <class name="G2.Project.Test.TS13.TC_TransferReceipt_01"/>
         </classes>
     </test>

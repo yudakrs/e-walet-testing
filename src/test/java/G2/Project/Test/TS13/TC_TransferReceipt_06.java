@@ -43,9 +43,4 @@ public class TC_TransferReceipt_06 extends Setting {
     void checkResponseTime() {
         checkResponseTime("2000");
     }
-
-    @Test
-    void checkHeader() {
-        checkContentType();
-    }
 }

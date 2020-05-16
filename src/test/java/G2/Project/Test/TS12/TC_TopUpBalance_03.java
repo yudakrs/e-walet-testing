@@ -48,7 +48,7 @@ public class TC_TopUpBalance_03 extends TestBase {
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("1000");
+        checkResponseTime("2000");
     }
 
     @Test

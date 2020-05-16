@@ -31,12 +31,12 @@ public class TC_TransferReceipt_03 extends Setting {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("406");
+        checkStatusCode("405");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 406 ");
+        checkStatusLine("HTTP/1.1 405 ");
     }
 
     @Test
