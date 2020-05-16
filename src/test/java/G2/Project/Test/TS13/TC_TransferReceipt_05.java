@@ -19,7 +19,7 @@ public class TC_TransferReceipt_05 extends Setting {
         httpRequest.header("Authorization","Bearer "+token);
         httpRequest.header("Content-Type", "multi-part/form-data");
 
-        response = httpRequest.request(Method.GET, "upload-transfer-receipt");
+        response = httpRequest.request(Method.POST, "upload-transfer-receipt/"+invoice);
 
         responseBody = response.getBody().asString();
     }

@@ -19,7 +19,7 @@ public class TC_TransferReceipt_04 extends Setting {
         httpRequest.header("Authorization","Bearer "+token);
         httpRequest.header("Content-Type", "multi-part/form-data");
 
-        response = httpRequest.request(Method.GET, "upload-transfer-receipt");
+        response = httpRequest.request(Method.GET, "upload-transfer-receipt/"+paytoken);
 
         responseBody = response.getBody().asString();
     }
@@ -31,17 +31,17 @@ public class TC_TransferReceipt_04 extends Setting {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("200");
+        checkStatusCode("406");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 200 ");
+        checkStatusLine("HTTP/1.1 406 ");
     }
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("2000");
+        checkResponseTime("5000");
     }
 
     @Test

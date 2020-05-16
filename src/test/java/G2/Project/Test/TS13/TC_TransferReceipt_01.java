@@ -19,7 +19,7 @@ public class TC_TransferReceipt_01 extends Setting {
         httpRequest.header("Authorization","Bearer "+token);
         httpRequest.header("Content-Type", "multi-part/form-data");
 
-        response = httpRequest.request(Method.GET, "upload-transfer-receipt");
+        response = httpRequest.request(Method.POST, "upload-transfer-receipt/"+paytoken);
 
         responseBody = response.getBody().asString();
     }
@@ -41,7 +41,7 @@ public class TC_TransferReceipt_01 extends Setting {
 
     @Test
     void checkResponseTime() {
-        checkResponseTime("2000");
+        checkResponseTime("5000");
     }
 
     @Test

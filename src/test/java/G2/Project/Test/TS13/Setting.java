@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 
 public class Setting extends TestBase {
     protected static String paytoken;
-    protected static String invoice;
+    protected static int invoice;
     @SuppressWarnings("unchecked")
     @BeforeTest
     void SettingUp() {
@@ -35,7 +35,7 @@ public class Setting extends TestBase {
         return paytoken;
     }
 
-    public static String GetId() {
+    public static int GetId() {
         return invoice;
     }
 }
