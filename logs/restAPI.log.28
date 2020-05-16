@@ -1,58 +1,58 @@
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1116
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1090
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 400
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 5:27:27 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:05 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 400 
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 2116
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1747
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 406
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 5:27:29 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:07 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 406 
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1508
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1048
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 400
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 5:27:31 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:08 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 400 
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkContentType
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkContentType
 INFO: ***** Check Content Type *****
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkBody
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkBody
 INFO: ***** Check Body Data *****
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkResponseTime
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkResponseTime
 INFO: ***** Check Response Time *****
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkResponseTime
-INFO: Response Time = 1703
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkResponseTime
+INFO: Response Time = 1707
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusCode
 INFO: ***** Check Status Code *****
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkStatusCode
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusCode
 INFO: Status Code = 200
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusLine
 INFO: ***** Check Status Line *****
-May 16, 2020 5:27:32 PM G2.Project.Base.TestBase checkStatusLine
+May 16, 2020 8:58:10 PM G2.Project.Base.TestBase checkStatusLine
 INFO: Status Line = HTTP/1.1 200 

@@ -27,7 +27,7 @@ public class Listeners extends TestListenerAdapter {
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host", "localhost");
 		extent.setSystemInfo("Environment", "QA");
-		extent.setSystemInfo("User", "Yuda");
+		extent.setSystemInfo("User", "SDET BE Team");
 	}
 	
 	public void onTestSuccess(ITestResult result)
