@@ -26,30 +26,6 @@
           <include name="checkStatusCode"/>
         </methods>
       </class> <!-- G2.Project.Test.TS01.TC_Signup_13 -->
-      <class name="G2.Project.Test.TS01.TC_Signup_14">
-        <methods>
-          <include name="checkStatusLine"/>
-          <include name="setup"/>
-          <include name="checkStatusCode"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS01.TC_Signup_14 -->
-      <class name="G2.Project.Test.TS01.TC_Signup_01">
-        <methods>
-          <include name="SettingUp"/>
-          <include name="setup"/>
-          <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS01.TC_Signup_01 -->
-      <class name="G2.Project.Test.TS01.TC_Signup_15">
-        <methods>
-          <include name="setup"/>
-          <include name="checkStatusLine"/>
-          <include name="SettingUp"/>
-          <include name="checkStatusCode"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS01.TC_Signup_15 -->
     </classes>
   </test> <!-- SignUpResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify Sign Up Functionality] -->

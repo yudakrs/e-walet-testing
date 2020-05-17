@@ -16,54 +16,10 @@
       <class name="G2.Project.Test.TS12.TC_TopUpBalance_01">
         <methods>
           <include name="SettingUp"/>
-          <include name="checkHeader"/>
           <include name="setup"/>
-          <include name="checkStatusLine"/>
           <include name="checkResponseTime"/>
-          <include name="checkStatusCode"/>
-          <include name="checkDataBody"/>
         </methods>
       </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_01 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_05">
-        <methods>
-          <include name="setup"/>
-          <include name="checkResponseTime"/>
-          <include name="checkHeader"/>
-          <include name="checkStatusCode"/>
-          <include name="checkStatusLine"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_05 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
-        <methods>
-          <include name="setup"/>
-          <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
-          <include name="checkResponseTime"/>
-          <include name="checkHeader"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_04 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_02">
-        <methods>
-          <include name="setup"/>
-          <include name="SettingUp"/>
-          <include name="checkHeader"/>
-          <include name="checkStatusLine"/>
-          <include name="checkStatusCode"/>
-          <include name="checkResponseTime"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_02 -->
-      <class name="G2.Project.Test.TS12.TC_TopUpBalance_03">
-        <methods>
-          <include name="setup"/>
-          <include name="checkResponseTime"/>
-          <include name="checkHeader"/>
-          <include name="checkStatusCode"/>
-          <include name="checkStatusLine"/>
-          <include name="SettingUp"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_03 -->
     </classes>
   </test> <!-- TopupBalanceResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify TopUpBalance Functionality] -->
