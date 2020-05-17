@@ -9,25 +9,13 @@
     <classes>
       <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_01">
         <methods>
-          <include name="checkHeader"/>
           <include name="setup"/>
           <include name="checkStatusLine"/>
           <include name="settingUp"/>
           <include name="checkDataBody"/>
           <include name="checkStatusCode"/>
-          <include name="checkResponseTime"/>
         </methods>
       </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_01 -->
-      <class name="G2.Project.Test.TS11.TC_GetTopUpHistory_02">
-        <methods>
-          <include name="checkResponseBody"/>
-          <include name="setup"/>
-          <include name="checkStatusLine"/>
-          <include name="checkResponseTime"/>
-          <include name="settingUp"/>
-          <include name="checkStatusCode"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS11.TC_GetTopUpHistory_02 -->
     </classes>
   </test> <!-- GetTopupHistoryResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify GetTopUpHistory Functionality] -->

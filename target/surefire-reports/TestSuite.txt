@@ -1,12 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 110, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.408 s <<< FAILURE! - in TestSuite
-checkStatusCode(G2.Project.Test.TS01.TC_Signup_13)  Time elapsed: 0.035 s  <<< FAILURE!
-java.lang.AssertionError: expected [406] but found [200]
-	at G2.Project.Test.TS01.TC_Signup_13.checkStatusCode(TC_Signup_13.java:41)
+Tests run: 159, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 28.536 s <<< FAILURE! - in TestSuite
+checkDataBody(G2.Project.Test.TS11.TC_GetTopUpHistory_01)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.NullPointerException
+	at G2.Project.Test.TS11.TC_GetTopUpHistory_01.checkDataBody(TC_GetTopUpHistory_01.java:31)
 
-checkStatusLine(G2.Project.Test.TS01.TC_Signup_13)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.AssertionError: expected [HTTP/1.1 406 ] but found [HTTP/1.1 200 ]
-	at G2.Project.Test.TS01.TC_Signup_13.checkStatusLine(TC_Signup_13.java:46)
+checkStatusCode(G2.Project.Test.TS11.TC_GetTopUpHistory_01)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [500]
+	at G2.Project.Test.TS11.TC_GetTopUpHistory_01.checkStatusCode(TC_GetTopUpHistory_01.java:36)
+
+checkStatusLine(G2.Project.Test.TS11.TC_GetTopUpHistory_01)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 ] but found [HTTP/1.1 500 ]
+	at G2.Project.Test.TS11.TC_GetTopUpHistory_01.checkStatusLine(TC_GetTopUpHistory_01.java:41)
 
