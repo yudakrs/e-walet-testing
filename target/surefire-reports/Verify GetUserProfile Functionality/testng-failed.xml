@@ -13,9 +13,21 @@
           <include name="setup"/>
           <include name="setUpTCGetUserProfile02"/>
           <include name="checkResponseBody"/>
+          <include name="checkResponseTime"/>
           <include name="checkStatusCode"/>
         </methods>
       </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_02 -->
+      <class name="G2.Project.Test.TS06.TC_GetUserProfile_01">
+        <methods>
+          <include name="checkHeader"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="setUpTCGetUserProfile01"/>
+          <include name="checkResponseTime"/>
+          <include name="checkDataBody"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS06.TC_GetUserProfile_01 -->
     </classes>
   </test> <!-- GetUserProfileResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify GetUserProfile Functionality] -->

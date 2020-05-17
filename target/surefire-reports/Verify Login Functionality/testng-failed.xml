@@ -14,8 +14,10 @@
     <classes>
       <class name="G2.Project.Test.TS02.TC_Login_01">
         <methods>
-          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
           <include name="setup"/>
+          <include name="checkDataBody"/>
+          <include name="checkStatusLine"/>
           <include name="setUpTCLogin01"/>
         </methods>
       </class> <!-- G2.Project.Test.TS02.TC_Login_01 -->

@@ -7,9 +7,22 @@
   <test thread-count="5" name="GetPaymentMethodResponseTest(failed)" verbose="0">
     <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
     <classes>
+      <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_01">
+        <methods>
+          <include name="checkDataBody"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="setUpTCGetPaymentMethod01"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
+          <include name="checkHeader"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS09.TC_GetPaymentMethod_01 -->
       <class name="G2.Project.Test.TS09.TC_GetPaymentMethod_02">
         <methods>
           <include name="setup"/>
+          <include name="checkResponseBody"/>
+          <include name="checkResponseTime"/>
           <include name="checkStatusCode"/>
           <include name="setUpTCGetPaymentMethod02"/>
           <include name="checkStatusLine"/>

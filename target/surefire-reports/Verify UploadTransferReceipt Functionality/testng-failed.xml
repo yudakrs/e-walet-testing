@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify UploadTransferReceipt Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="UploadReceiptResponseTest(failed)" verbose="0">
+    <classes>
+      <class name="G2.Project.Test.TS13.TC_TransferReceipt_06">
+        <methods>
+          <include name="setup"/>
+          <include name="checkResponseTime"/>
+          <include name="SettingUp"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS13.TC_TransferReceipt_06 -->
+    </classes>
+  </test> <!-- UploadReceiptResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify UploadTransferReceipt Functionality] -->

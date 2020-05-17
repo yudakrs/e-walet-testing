@@ -9,18 +9,11 @@
     <classes>
       <class name="G2.Project.Test.TS07.TC_GetUserBalance_01">
         <methods>
+          <include name="checkResponseTime"/>
           <include name="setup"/>
           <include name="setUpTCGetUserBalance01"/>
-          <include name="checkDataBody"/>
         </methods>
       </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_01 -->
-      <class name="G2.Project.Test.TS07.TC_GetUserBalance_02">
-        <methods>
-          <include name="setup"/>
-          <include name="setUpTCGetUserBalance02"/>
-          <include name="checkResponseTime"/>
-        </methods>
-      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_02 -->
     </classes>
   </test> <!-- GetUserBalanceResponseTest(failed) -->
 </suite> <!-- Failed suite [Verify GetUserBalance Functionality] -->

@@ -19,7 +19,7 @@ import java.util.logging.SimpleFormatter;
 public class TestBase {
     protected static RequestSpecification httpRequest;
     protected static Response response;
-    protected String BaseURI = "http://ff4f6802.ngrok.io"; //nanti diganti kalo dah ada linknya
+    protected String BaseURI = "http://336f1b2a.ngrok.io"; //nanti diganti kalo dah ada linknya
     protected String responseBody;
     protected JSONObject requestParams = new JSONObject();
     protected String token;

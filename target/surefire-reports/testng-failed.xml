@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Verify Login Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+<suite name="Failed suite [Verify GetUserBalance Functionality]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="G2.Project.Listener.Listeners"/>
   </listeners>
-  <test thread-count="5" name="LoginResponseTest(failed)" verbose="0">
-    <parameter name="registered_username" value="6281905218958"/>
-    <parameter name="invalid_username" value="6281string"/>
-    <parameter name="registered_password" value="e-Walet@01"/>
-    <parameter name="unregistered_username" value="6285156362125"/>
-    <parameter name="invalid_password" value="ewalet"/>
-    <parameter name="unregistered_password" value="e-Walet@02"/>
+  <test thread-count="5" name="GetUserBalanceResponseTest(failed)" verbose="0">
+    <parameter name="invalid_token" value="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2MjgxOTA1MjE4OTU4IiwiZXhwIjoxNTg5NDQ3NDg3LCJpYXQiOjE1ODk0Mjk0ODd9.Qtiv_EvtO81s14UxWyBYf7XTwrMlOhigpnQNtQE-BR8f0Xb1I5onftFT-xDFRU2TXv9VMheQpknSH_o8OD"/>
     <classes>
-      <class name="G2.Project.Test.TS02.TC_Login_01">
+      <class name="G2.Project.Test.TS07.TC_GetUserBalance_01">
         <methods>
           <include name="checkResponseTime"/>
           <include name="setup"/>
-          <include name="setUpTCLogin01"/>
+          <include name="setUpTCGetUserBalance01"/>
         </methods>
-      </class> <!-- G2.Project.Test.TS02.TC_Login_01 -->
+      </class> <!-- G2.Project.Test.TS07.TC_GetUserBalance_01 -->
     </classes>
-  </test> <!-- LoginResponseTest(failed) -->
-</suite> <!-- Failed suite [Verify Login Functionality] -->
+  </test> <!-- GetUserBalanceResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify GetUserBalance Functionality] -->

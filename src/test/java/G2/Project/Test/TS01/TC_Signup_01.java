@@ -38,12 +38,12 @@ public class TC_Signup_01 extends TestBase {
 
     @Test
     void checkStatusCode() {
-        checkStatusCode("201");
+        checkStatusCode("200");
     }
 
     @Test
     void checkStatusLine() {
-        checkStatusLine("HTTP/1.1 201 ");
+        checkStatusLine("HTTP/1.1 200 ");
     }
 
     @Test

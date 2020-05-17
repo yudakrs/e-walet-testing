@@ -9,7 +9,7 @@
         <parameter name="name_long" value="Yudarealmvpjelassekaliyatoya"/>
         <parameter name="phone_unregistered" value="6281905218958"/>
         <parameter name="phone_registered" value="6281325618362"/>
-        <parameter name="phone_short" value="62813256183"/>
+        <parameter name="phone_short" value="6281325"/>
         <parameter name="phone_multi" value="6281string"/>
         <parameter name="email_unregistered" value="sdetbe.team1@gmail.com"/>
         <parameter name="email_registered" value="yuda.dea.k@gmail.com"/>

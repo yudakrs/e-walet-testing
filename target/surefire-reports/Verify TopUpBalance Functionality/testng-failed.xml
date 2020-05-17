@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Verify TopUpBalance Functionality]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="G2.Project.Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TopupBalanceResponseTest(failed)" verbose="0">
+    <parameter name="phone_unregistered" value="6281905218957"/>
+    <parameter name="phone_invalid" value="6281325string"/>
+    <parameter name="phone_registered" value="6281905218958"/>
+    <parameter name="code_invalid" value="S-20"/>
+    <parameter name="code_valid" value="E-20"/>
+    <parameter name="payment_id_valid" value="1"/>
+    <parameter name="payment_id_invalid" value="10"/>
+    <classes>
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_01">
+        <methods>
+          <include name="SettingUp"/>
+          <include name="checkHeader"/>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="checkResponseTime"/>
+          <include name="checkStatusCode"/>
+          <include name="checkDataBody"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_01 -->
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_05">
+        <methods>
+          <include name="setup"/>
+          <include name="checkResponseTime"/>
+          <include name="checkHeader"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="SettingUp"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_05 -->
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_04">
+        <methods>
+          <include name="setup"/>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
+          <include name="checkHeader"/>
+          <include name="SettingUp"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_04 -->
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_02">
+        <methods>
+          <include name="setup"/>
+          <include name="SettingUp"/>
+          <include name="checkHeader"/>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="checkResponseTime"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_02 -->
+      <class name="G2.Project.Test.TS12.TC_TopUpBalance_03">
+        <methods>
+          <include name="setup"/>
+          <include name="checkResponseTime"/>
+          <include name="checkHeader"/>
+          <include name="checkStatusCode"/>
+          <include name="checkStatusLine"/>
+          <include name="SettingUp"/>
+        </methods>
+      </class> <!-- G2.Project.Test.TS12.TC_TopUpBalance_03 -->
+    </classes>
+  </test> <!-- TopupBalanceResponseTest(failed) -->
+</suite> <!-- Failed suite [Verify TopUpBalance Functionality] -->
